@@ -1043,6 +1043,7 @@
   },
   "f-z": {
     "representation": "f",
+    "name": "voicet",
     "condition": "Befôr Z.",
     "pronunciation": {
       "diaphoneme": "v",
@@ -1677,6 +1678,37 @@
       "neu",
       "neutral",
       "neuron"
+    ]
+  },
+  "n-velar": {
+    "representation": "n",
+    "condition": "Befôr K or G.",
+    "pronunciation": {
+      "diaphoneme": "ŋ",
+      "us": "ŋ",
+      "ca": "ŋ",
+      "uk": "ŋ",
+      "au": "ŋ"
+    },
+    "examples": [
+      "finger",
+      "think",
+      "langueje"
+    ]
+  },
+  "ng": {
+    "representation": "ng",
+    "pronunciation": {
+      "diaphoneme": "ŋ",
+      "us": "ŋ",
+      "ca": "ŋ",
+      "uk": "ŋ",
+      "au": "ŋ"
+    },
+    "examples": [
+      "singer",
+      "long",
+      "running"
     ]
   },
   "o-long": {
