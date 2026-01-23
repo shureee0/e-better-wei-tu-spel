@@ -248,6 +248,57 @@ textarea::placeholder {
     transform: scale(1);
 }
 
+.entry-count-badge {
+    position: absolute;
+    top: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
+.entry-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0.5rem;
+    background-color: var(--background);
+    border-radius: 0.8rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    z-index: 100;
+    min-width: 12rem;
+}
+
+.dropdown-option {
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.dropdown-option:hover {
+    background-color: var(--background-light);
+}
+
+.dropdown-option.selected {
+    background-color: var(--background-light);
+}
+
+.dropdown-title {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 0.2rem;
+}
+
+.dropdown-spelling {
+    display: block;
+    font-size: 1.2rem;
+    font-family: var(--title-font);
+    color: var(--text);
+}
+
 .output-title {
     display: flex;
     flex-wrap: wrap;

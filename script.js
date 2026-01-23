@@ -37,6 +37,8 @@ const placeholder = output.dataset.placeholder;
 const readingBox = document.getElementById("reading");
 const letterBox = document.getElementById("letter");
 let selectedManually = false;
+let customWordSelections = {}; // Track custom selections for words
+let manuallySelectedWords = {}; // Track which words have been manually selected from dropdown
 
   // dictionary
 let dictionary = {};
@@ -87,6 +89,8 @@ function updateOutput() {
     output.classList.add("placeholder");
     
     selectedManually = false;
+    customWordSelections = {};
+    manuallySelectedWords = {};
     readingBox.textContent = "";
     letterBox.textContent = "";
   } else {
@@ -110,6 +114,9 @@ function findInDictionary() {
   const isSingleWord = /^[A-Za-z]+$/.test(text.trim());
   let singleWordKey = null;
 
+  // Track which words are present in current input
+  const currentWords = new Set();
+
   tokens.forEach(token => {
     // if it's not a word
     if (!/^[A-Za-z]+$/.test(token)) {
@@ -120,6 +127,7 @@ function findInDictionary() {
     }
 
     const key = token.toLowerCase();
+    currentWords.add(key);
 
     if (dictionary[key]) {
       lastKey = key;
@@ -161,19 +169,35 @@ function findInDictionary() {
           output.appendChild(entryDiv);
         });
       } else {
-        // Normal mode: show first translation
-        const firstEntry = entries[0];
-        const firstTranslation = firstEntry.spelling;
+        // Normal mode: show translation
+        const selectedIndex = customWordSelections[key] || 0;
+        const selectedEntry = entries[selectedIndex];
+        const translation = selectedEntry.spelling;
+
+        const wordWrapper = document.createElement("span");
+        wordWrapper.className = "word-wrapper";
+        wordWrapper.style.position = "relative";
+        wordWrapper.style.display = "inline-block";
 
         const button = document.createElement("button");
-        button.textContent = firstTranslation;
+        button.textContent = translation;
         button.className = "explanation-button";
+
+        // Show count badge if multiple entries and not manually selected
+        if (entries.length > 1 && !manuallySelectedWords[key]) {
+          const badge = document.createElement("sup");
+          badge.textContent = entries.length;
+          badge.className = "entry-count-badge";
+          button.appendChild(badge);
+        }
 
         button.addEventListener("click", () => {
           selectedManually = true;
-          if (entries && entries.length > 0) {
+          if (entries.length > 1) {
+            // Show dropdown
+            showEntryDropdown(wordWrapper, key, entries, selectedIndex);
+          } else {
             buildReadingBox(entries[0].explanation);
-            // automatically update letter box with first letter
             const firstReading = entries[0].explanation[0];
             if (firstReading && firstReading.letters && firstReading.letters.length > 0) {
               const firstLetter = firstReading.letters[0];
@@ -182,7 +206,8 @@ function findInDictionary() {
           }
         });
 
-        output.appendChild(button);
+        wordWrapper.appendChild(button);
+        output.appendChild(wordWrapper);
       }
     } else {
       const span = document.createElement("span");
@@ -192,6 +217,14 @@ function findInDictionary() {
       output.appendChild(span);
     }
   })
+
+  // Clean up selections for words no longer in input
+  Object.keys(customWordSelections).forEach(word => {
+    if (!currentWords.has(word)) {
+      delete customWordSelections[word];
+      delete manuallySelectedWords[word];
+    }
+  });
 
   // on the first dictionary match
   if (!selectedManually && lastKey) {
@@ -206,6 +239,62 @@ function findInDictionary() {
       }
     }
   }
+}
+
+function showEntryDropdown(parentElement, wordKey, entries, currentIndex) {
+  // Remove any existing dropdown
+  const existingDropdown = document.querySelector(".entry-dropdown");
+  if (existingDropdown) {
+    existingDropdown.remove();
+  }
+
+  const dropdown = document.createElement("div");
+  dropdown.className = "entry-dropdown";
+
+  entries.forEach((entry, index) => {
+    const option = document.createElement("div");
+    option.className = "dropdown-option" + (index === currentIndex ? " selected" : "");
+
+    if (entry.title) {
+      const title = document.createElement("span");
+      title.textContent = entry.title;
+      title.className = "dropdown-title";
+      option.appendChild(title);
+    }
+
+    const spelling = document.createElement("span");
+    spelling.textContent = entry.spelling;
+    spelling.className = "dropdown-spelling";
+    option.appendChild(spelling);
+
+    option.addEventListener("click", () => {
+      customWordSelections[wordKey] = index;
+      manuallySelectedWords[wordKey] = true;
+      dropdown.remove();
+      updateOutput();
+      selectedManually = true;
+      buildReadingBox(entry.explanation);
+      const firstReading = entry.explanation[0];
+      if (firstReading && firstReading.letters && firstReading.letters.length > 0) {
+        const firstLetter = firstReading.letters[0];
+        buildLetterBox(firstLetter.class);
+      }
+    });
+
+    dropdown.appendChild(option);
+  });
+
+  parentElement.appendChild(dropdown);
+
+  // Close dropdown when clicking outside
+  setTimeout(() => {
+    document.addEventListener("click", function closeDropdown(e) {
+      if (!parentElement.contains(e.target)) {
+        dropdown.remove();
+        document.removeEventListener("click", closeDropdown);
+      }
+    });
+  }, 0);
 }
 
 function buildReadingBox(readings) {
