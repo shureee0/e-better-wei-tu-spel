@@ -1,0 +1,2820 @@
+{
+  "a-long": {
+    "representation": "â",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "ɑː",
+      "us": "ɑ",
+      "ca": "ɑ",
+      "uk": "ɑː(ɹ)",
+      "au": "ɐː(ɹ)"
+    },
+    "examples": [
+      "fâther",
+      "kâm",
+      "pâm"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil."
+  },
+  "a-long-medial": {
+    "representation": "a",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr e konsonant, and iz thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ɑː",
+      "us": "ɑ",
+      "ca": "ɑ",
+      "uk": "ɑː(ɹ)",
+      "au": "ɐː(ɹ)"
+    },
+    "examples": [
+      "lava",
+      "drama",
+      "lamaz"
+    ]
+  },
+  "a-long-final": {
+    "representation": "a",
+    "name": "strong long",
+    "condition": "It iz strest, and plecet at thi end ov e wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "ɑː",
+      "us": "ɑ",
+      "ca": "ɑ",
+      "uk": "ɑː(ɹ)",
+      "au": "ɐː(ɹ)"
+    },
+    "examples": [
+      "bra",
+      "spa",
+      "spaz"
+    ]
+  },
+  "a-short": {
+    "representation": "a",
+    "name": "strong short",
+    "condition": "It iz strest, but thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "æ",
+      "us": "æ",
+      "ca": "a",
+      "uk": "a",
+      "au": "æ"
+    },
+    "examples": [
+      "aktivêt",
+      "strateji",
+      "maximum"
+    ]
+  },
+  "a-short-medial": {
+    "representation": "a",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants. (J and X kaunt az dubbel)",
+    "pronunciation": {
+      "diaphoneme": "æ",
+      "us": "æ",
+      "ca": "a",
+      "uk": "a, ɑː",
+      "au": "æ, ɐː"
+    },
+    "examples": [
+      "travvel",
+      "langueje",
+      "majik"
+    ]
+  },
+  "a-short-medial-lengthened": {
+    "representation": "a",
+    "name": "strong short lengthened",
+    "condition": "It iz strest, folloud bai at liest twu konsonants. Thi lengthend pronunciêcion iz not markt.",
+    "pronunciation": {
+      "diaphoneme": "æ, ɑː",
+      "us": "æ",
+      "ca": "a",
+      "uk": "ɑː",
+      "au": "ɐː"
+    },
+    "examples": [
+      "basket",
+      "lafter",
+      "kassel"
+    ]
+  },
+  "a-short-final": {
+    "representation": "a",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant.",
+    "pronunciation": {
+      "diaphoneme": "æ",
+      "us": "æ",
+      "ca": "a",
+      "uk": "a",
+      "au": "æ"
+    },
+    "examples": [
+      "kat",
+      "plan",
+      "bak"
+    ]
+  },
+  "a-short-final-lengthened": {
+    "representation": "a",
+    "name": "strong short lengthened",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant. Thi lengthend pronunciêcion iz not markt.",
+    "pronunciation": {
+      "diaphoneme": "æ, ɑː",
+      "us": "æ",
+      "ca": "a",
+      "uk": "ɑː",
+      "au": "ɐː"
+    },
+    "examples": [
+      "fast",
+      "bath",
+      "glass"
+    ]
+  },
+  "a-weak": {
+    "representation": "a",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ə",
+      "us": "ə",
+      "ca": "ə",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "about",
+      "sofa",
+      "kompani"
+    ]
+  },
+  "a-weak-silent": {
+    "representation": "a",
+    "name": "weak sailent",
+    "condition": "It iz unstrest, befôr L or R, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "∅, ə",
+      "us": "∅, ə",
+      "ca": "∅, ə",
+      "uk": "∅, ə",
+      "au": "∅, ə"
+    },
+    "examples": [
+      "separat"
+    ]
+  },
+  "ar": {
+    "representation": "ar",
+    "name": "strong",
+    "condition": "It iz strest.",
+    "pronunciation": {
+      "diaphoneme": "ɑːr",
+      "us": "ɑɹ",
+      "ca": "ɑɹ",
+      "uk": "ɑː(ɹ)",
+      "au": "ɐː(ɹ)"
+    },
+    "examples": [
+      "car",
+      "artikel",
+      "safari"
+    ]
+  },
+  "ar-initial": {
+    "representation": "ar",
+    "name": "strong",
+    "condition": "It iz unstrest, plecet at thi begining ov e wurd or morfîm, and folloud bai e konsonant.",
+    "pronunciation": {
+      "diaphoneme": "ɑːr",
+      "us": "ɑɹ",
+      "ca": "ɑɹ",
+      "uk": "ɑː(ɹ)",
+      "au": "ɐː(ɹ)"
+    },
+    "examples": [
+      "artistik",
+      "arkêd",
+      "arkaival"
+    ]
+  },
+  "ar-derhoticized": {
+    "representation": "ar",
+    "name": "strong derôticaizd",
+    "condition": "It iz strest, and plecet befôr e vauel, and thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ær",
+      "us": "ɛɹ, æɹ",
+      "ca": "ɛɹ, æɹ",
+      "uk": "æɹ",
+      "au": "æɹ"
+    },
+    "examples": [
+      "karakter",
+      "chariti",
+      "paragraf"
+    ],
+    "note": "Aolternativ tu \"arr\" in multisilabbik wurds."
+  },
+  "arr": {
+    "name": "strong derôticaizd",
+    "representation": "arr",
+    "pronunciation": {
+      "diaphoneme": "ær",
+      "us": "æɹ, ɛɹ",
+      "ca": "æɹ, ɛɹ",
+      "uk": "æɹ",
+      "au": "æɹ"
+    },
+    "examples": [
+      "karrot",
+      "arrou",
+      "parrot"
+    ]
+  },
+  "ar-weak": {
+    "representation": "ar",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "partikeular",
+      "kalendar",
+      "aristokrat"
+    ]
+  },
+  "ai": {
+    "representation": "ai",
+    "pronunciation": {
+      "diaphoneme": "aɪ",
+      "us": "aɪ",
+      "ca": "aɪ, ʌɪ",
+      "uk": "ɑi",
+      "au": "ɑe"
+    },
+    "examples": [
+      "taim",
+      "aidia",
+      "fainalaiz"
+    ]
+  },
+  "ay": {
+    "representation": "ay",
+    "pronunciation": {
+      "diaphoneme": "aɪ",
+      "us": "aɪ",
+      "ca": "aɪ, ʌɪ",
+      "uk": "ɑi",
+      "au": "ɑe"
+    },
+    "examples": [
+      "traying",
+      "baying",
+      "hayina"
+    ],
+    "note": "Euzd befôr \"i\" insted ov \"ai\"."
+  },
+  "ao": {
+    "representation": "ao",
+    "pronunciation": {
+      "diaphoneme": "ɔː",
+      "us": "ɑ, ɔ",
+      "ca": "ɑ, ɔ",
+      "uk": "oː(ɹ)",
+      "au": "ɔː(ɹ)"
+    },
+    "examples": [
+      "lao",
+      "aol",
+      "aotomat"
+    ]
+  },
+  "au": {
+    "representation": "au",
+    "pronunciation": {
+      "diaphoneme": "aʊ",
+      "us": "aʊ",
+      "ca": "aʊ, ʌʊ",
+      "uk": "au",
+      "au": "æɔ"
+    },
+    "examples": [
+      "taun",
+      "haus",
+      "faund"
+    ]
+  },
+  "b": {
+    "representation": "b",
+    "pronunciation": {
+      "diaphoneme": "b",
+      "us": "b",
+      "ca": "b",
+      "uk": "b",
+      "au": "b"
+    },
+    "examples": [
+      "bat",
+      "rob",
+      "stebel"
+    ]
+  },
+  "bb": {
+    "representation": "bb",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "b",
+      "us": "b",
+      "ca": "b",
+      "uk": "b",
+      "au": "b"
+    },
+    "examples": [
+      "rubber",
+      "hobbi",
+      "rabbit"
+    ]
+  },
+  "c": {
+    "representation": "c",
+    "pronunciation": {
+      "diaphoneme": "s",
+      "us": "s",
+      "ca": "s",
+      "uk": "s",
+      "au": "s"
+    },
+    "examples": [
+      "cent",
+      "caikel",
+      "cirial"
+    ],
+    "note": "Euzd in plecez historikali akeurat."
+  },
+  "c-soft": {
+    "representation": "c",
+    "name": "soft",
+    "condition": "Befôr softening I.",
+    "pronunciation": {
+      "diaphoneme": "ʃ",
+      "us": "ʃ",
+      "ca": "ʃ",
+      "uk": "ʃ",
+      "au": "ʃ"
+    },
+    "examples": [
+      "ôcianik",
+      "aprîciêt",
+      "specialiti"
+    ]
+  },
+  "ci": {
+    "representation": "ci",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "ʃ",
+      "us": "ʃ",
+      "ca": "ʃ",
+      "uk": "ʃ",
+      "au": "ʃ"
+    },
+    "examples": [
+      "special",
+      "ôcian",
+      "tradicion"
+    ]
+  },
+  "ce": {
+    "representation": "ce",
+    "condition": "At thi end ov e wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "s",
+      "us": "s",
+      "ca": "s",
+      "uk": "s",
+      "au": "s"
+    },
+    "examples": [
+      "plece",
+      "wonce",
+      "advancet"
+    ]
+  },
+  "ch": {
+    "representation": "ch",
+    "pronunciation": {
+      "diaphoneme": "tʃ",
+      "us": "tʃ",
+      "ca": "tʃ",
+      "uk": "tʃ",
+      "au": "tʃ"
+    },
+    "examples": [
+      "chat",
+      "chokolat",
+      "kach"
+    ]
+  },
+  "d": {
+    "representation": "d",
+    "pronunciation": {
+      "diaphoneme": "d",
+      "us": "d",
+      "ca": "d",
+      "uk": "d",
+      "au": "d"
+    },
+    "examples": [
+      "dog",
+      "bad",
+      "driem"
+    ]
+  },
+  "dd": {
+    "representation": "dd",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "d",
+      "us": "ɾ, d",
+      "ca": "ɾ, d",
+      "uk": "d",
+      "au": "ɾ, d"
+    },
+    "examples": [
+      "ladder",
+      "meddal",
+      "ridden"
+    ]
+  },
+  "di": {
+    "representation": "di",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "dʒ",
+      "us": "dʒ",
+      "ca": "dʒ",
+      "uk": "dʒ",
+      "au": "dʒ"
+    },
+    "examples": [
+      "sôldier",
+      "procîdiur",
+      "modiul"
+    ]
+  },
+  "d-eu": {
+    "representation": "d",
+    "condition": "Befôr EU.",
+    "pronunciation": {
+      "diaphoneme": "dʒ",
+      "us": "d",
+      "ca": "d",
+      "uk": "dʒ",
+      "au": "dʒ"
+    },
+    "examples": [
+      "deu",
+      "deun",
+      "deuo"
+    ]
+  },
+  "d-r": {
+    "representation": "d",
+    "condition": "Befôr R.",
+    "pronunciation": {
+      "diaphoneme": "d",
+      "us": "dʒ",
+      "ca": "dʒ",
+      "uk": "dʒ",
+      "au": "dʒ"
+    },
+    "examples": [
+      "driem",
+      "drum",
+      "drai"
+    ]
+  },
+  "d-intervocalic": {
+    "representation": "d",
+    "condition": "In betwên two vauelz, whêr thi priciding won iz strest.",
+    "pronunciation": {
+      "diaphoneme": "d",
+      "us": "ɾ, d",
+      "ca": "ɾ, d",
+      "uk": "d",
+      "au": "ɾ, d"
+    },
+    "examples": [
+      "raider",
+      "pauder",
+      "order"
+    ]
+  },
+  "dd-intervocalic": {
+    "representation": "dd",
+    "condition": "In betwên two vauelz, whêr thi priciding won iz strest.",
+    "pronunciation": {
+      "diaphoneme": "d",
+      "us": "ɾ, d",
+      "ca": "ɾ, d",
+      "uk": "d",
+      "au": "ɾ, d"
+    },
+    "examples": [
+      "ladder",
+      "meddal",
+      "ridden"
+    ]
+  },
+  "e-long": {
+    "representation": "ê",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "eɪ",
+      "us": "eɪ",
+      "ca": "eɪ",
+      "uk": "ei", 
+      "au": "æɪ"
+    },
+    "examples": [
+      "kêk",
+      "stêje",
+      "lôkêcion"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil."
+  },
+  "e-long-medial": {
+    "representation": "e",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr e konsonant, and iz thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "eɪ",
+      "us": "eɪ",
+      "ca": "eɪ",
+      "uk": "ei",
+      "au": "æɪ"
+    },
+    "examples": [
+      "beking",
+      "teken",
+      "debeu"
+    ]
+  },
+  "e-long-final": {
+    "representation": "e",
+    "name": "strong long",
+    "condition": "It iz plecet at thi end ov e wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "eɪ",
+      "us": "eɪ",
+      "ca": "eɪ",
+      "uk": "ei",
+      "au": "æɪ"
+    },
+    "examples": [
+      "kaffe",
+      "bûke",
+      "fionce"
+    ]
+  },
+  "e-short": {
+    "representation": "e",
+    "name": "strong short",
+    "condition": "It iz strest, but thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ɛ",
+      "us": "ɛ",
+      "ca": "ɛ",
+      "uk": "ɛ",
+      "au": "e"
+    },
+    "examples": [
+      "enerji",
+      "editor",
+      "special"
+    ]
+  },
+  "e-short-medial": {
+    "representation": "e",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants. (J and X kaunt az dubbel)",
+    "pronunciation": {
+      "diaphoneme": "ɛ",
+      "us": "ɛ",
+      "ca": "ɛ",
+      "uk": "ɛ",
+      "au": "e"
+    },
+    "examples": [
+      "better",
+      "sekkond",
+      "messeje"
+    ]
+  },
+  "e-short-final": {
+    "representation": "e",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant.",
+    "pronunciation": {
+      "diaphoneme": "ɛ",
+      "us": "ɛ",
+      "ca": "ɛ",
+      "uk": "ɛ",
+      "au": "e"
+    },
+    "examples": [
+      "bed",
+      "net",
+      "selekt"
+    ]
+  },
+  "e-weak": {
+    "representation": "e",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "bekum",
+      "immejez",
+      "limmited"
+    ]
+  },
+  "e-weak-initial": {
+    "representation": "e",
+    "name": "wiek",
+    "condition": "It iz unstrest, and at thi beginnings ov wurds.",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "erupt",
+      "efekt",
+      "enebel"
+    ]
+  },
+  "e-weak-presonorant": {
+    "representation": "e",
+    "name": "weak redeucet",
+    "condition": "It iz unstrest, and plecet befôr an L, M, or N.",
+    "pronunciation": {
+      "diaphoneme": "ə",
+      "us": "ə",
+      "ca": "ə",
+      "uk": "ə",
+      "au": "ə"
+    },
+    "examples": [
+      "appel",
+      "rithem",
+      "fenomenon"
+    ]
+  },
+  "e-weak-reduced": {
+    "representation": "e",
+    "name": "weak redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "ə",
+      "us": "ə",
+      "ca": "ə",
+      "uk": "ə",
+      "au": "ə"
+    },
+    "examples": [
+      "benefit",
+      "strateji"
+    ]
+  },
+  "e-weak-silent": {
+    "representation": "e",
+    "name": "weak sailent",
+    "condition": "It iz unstrest, befôr L or R, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "∅",
+      "us": "∅, ə",
+      "ca": "∅, ə",
+      "uk": "∅, ə",
+      "au": "∅, ə"
+    },
+    "examples": [
+      "evveri",
+      "interest",
+      "travveler"
+    ]
+  },
+  "er-long": {
+    "representation": "êr",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "ɛːr",
+      "us": "ɛɹ",
+      "ca": "ɛɹ",
+      "uk": "ɛː(ɹ)",
+      "au": "eː(ɹ)"
+    },
+    "examples": [
+      "stêr",
+      "whêr",
+      "shêrd"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil."
+  },
+  "er-long-medial": {
+    "representation": "er",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ɛːr",
+      "us": "ɛɹ",
+      "ca": "ɛɹ",
+      "uk": "ɛː(ɹ)",
+      "au": "eː(ɹ)"
+    },
+    "examples": [
+      "veri",
+      "perent",
+      "wering"
+    ]
+  },
+  "er-short": {
+    "representation": "er",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ɜːr",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "əː(ɹ), ɜː(ɹ)",
+      "au": "ɜː(ɹ)"
+    },
+    "examples": [
+      "her",
+      "nerv",
+      "serch"
+    ]
+  },
+  "er-short-medial": {
+    "representation": "er",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants.",
+    "pronunciation": {
+      "diaphoneme": "ɜːr",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "əː(ɹ), ɜː(ɹ)",
+      "au": "ɜː(ɹ)"
+    },
+    "examples": [
+      "perfekt",
+      "referral",
+      "service"
+    ]
+  },
+  "er-derhoticized": {
+    "representation": "er",
+    "name": "strong derôticaizd",
+    "condition": "It iz strest, and plecet befôr e vauel, and thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ɛːr",
+      "us": "ɛɹ",
+      "ca": "ɛɹ",
+      "uk": "ɛːɹ",
+      "au": "eːɹ"
+    },
+    "examples": [
+      "ceremoni"
+    ],
+    "note": "Aolternativ tu \"err\" in multisilabbik wurds."
+  },
+  "err": {
+    "name": "strong derôticaizd",
+    "representation": "err",
+    "pronunciation": {
+      "diaphoneme": "ɛːr",
+      "us": "ɛɹ",
+      "ca": "ɛɹ",
+      "uk": "ɛːɹ",
+      "au": "eːɹ"
+    },
+    "examples": [
+      "terror",
+      "error",
+      "merri"
+    ]
+  },
+  "er-weak": {
+    "representation": "er",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "butter",
+      "kompeuter",
+      "literal"
+    ]
+  },
+  "ei": {
+    "representation": "ei",
+    "pronunciation": {
+      "diaphoneme": "eɪ",
+      "us": "eɪ",
+      "ca": "eɪ",
+      "uk": "ɛi",
+      "au": "æɪ"
+    },
+    "examples": [
+      "vein",
+      "diteil",
+      "treining"
+    ],
+    "note": "Replecez instancez ov ov môr than won orijinal vauel."
+  },
+  "eir": {
+    "representation": "eir",
+    "pronunciation": {
+      "diaphoneme": "ɛːr",
+      "us": "ɛɹ",
+      "ca": "ɛɹ",
+      "uk": "ɛː(ɹ)",
+      "au": "eː(ɹ)"
+    },
+    "examples": [
+      "heir",
+      "their",
+      "eir"
+    ],
+    "note": "Replecez instancez ov môr than won orijinal vauel."
+  },
+  "eu": {
+    "representation": "eu",
+    "pronunciation": {
+      "diaphoneme": "juː",
+      "us": "jʊu",
+      "ca": "jʊu",
+      "uk": "jʉu",
+      "au": "jʉː"
+    },
+    "examples": [
+      "feu",
+      "keut",
+      "euz"
+    ]
+  },
+  "eu-softening": {
+    "representation": "eu",
+    "condition": "After T, D, S, C, Z, L, or N.",
+    "pronunciation": {
+      "diaphoneme": "(j)uː",
+      "us": "(j)ʊu",
+      "ca": "(j)ʊu",
+      "uk": "(j)ʉu",
+      "au": "(j)ʉː"
+    },
+    "examples": [
+      "teuzdei",
+      "seut",
+      "neu"
+    ]
+  },
+  "eu-merjed": {
+    "representation": "eu",
+    "condition": "After J, R, SH, or CH.",
+    "pronunciation": {
+      "diaphoneme": "uː",
+      "us": "ʊu",
+      "ca": "ʊu",
+      "uk": "ʉu",
+      "au": "ʉː"
+    },
+    "examples": [
+      "Jeun",
+      "reul",
+      "cheu"
+    ]
+  },
+  "eu-reduced": {
+    "representation": "eu",
+    "name": "redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "jə",
+      "us": "jə",
+      "ca": "jə",
+      "uk": "jə",
+      "au": "jə"
+    },
+    "examples": [
+      "popeular",
+      "repeutêcion"
+    ]
+  },
+  "eur": {
+    "representation": "eur",
+    "pronunciation": {
+      "diaphoneme": "jʊər",
+      "us": "jʊɹ, jɝ",
+      "ca": "jʊɹ, jɝ",
+      "uk": "jʊə(ɹ), joː(ɹ)",
+      "au": "jʉːə(ɹ)"
+    },
+    "examples": [
+      "Eurôp",
+      "keur",
+      "feuri"
+    ]
+  },
+  "eur-softening": {
+    "representation": "eur",
+    "condition": "After T, D, S, C, Z, L, or N.",
+    "pronunciation": {
+      "diaphoneme": "(j)ʊər",
+      "us": "(j)ʊɹ, (j)ɝ",
+      "ca": "(j)ʊɹ, (j)ɝ",
+      "uk": "(j)ʊə(ɹ), (j)oː(ɹ)",
+      "au": "(j)ʉːə(ɹ)"
+    },
+    "examples": [
+      "neuron",
+      "leur",
+      "deuring"
+    ]
+  },
+  "eur-merjed": {
+    "representation": "eur",
+    "condition": "After J, R, SH, or CH.",
+    "pronunciation": {
+      "diaphoneme": "ʊər",
+      "us": "ʊɹ, ɝ",
+      "ca": "ʊɹ, ɝ",
+      "uk": "ʊə(ɹ), oː(ɹ)",
+      "au": "ʉːə(ɹ)"
+    },
+    "examples": [
+      "sheur",
+      "injeuri",
+      "reural"
+    ]
+  },
+  "eur-reduced": {
+    "representation": "eur",
+    "name": "redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "jər",
+      "us": "jɚ",
+      "ca": "jɚ",
+      "uk": "jə(ɹ)",
+      "au": "jə(ɹ)"
+    },
+    "examples": [
+      "Merkeuri"
+    ]
+  },
+  "f": {
+    "representation": "f",
+    "pronunciation": {
+      "diaphoneme": "f",
+      "us": "f",
+      "ca": "f",
+      "uk": "f",
+      "au": "f"
+    },
+    "examples": [
+      "fun",
+      "lief",
+      "flai"
+    ]
+  },
+  "ff": {
+    "representation": "ff",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "f",
+      "us": "f",
+      "ca": "f",
+      "uk": "f",
+      "au": "f"
+    },
+    "examples": [
+      "buffer",
+      "offer",
+      "suffix"
+    ]
+  },
+  "ft": {
+    "representation": "ft",
+    "condition": "After \"o-\", befôr \"-en\".",
+    "pronunciation": {
+      "diaphoneme": "f(t)",
+      "us": "f(t)",
+      "ca": "f(t)",
+      "uk": "f(t)",
+      "au": "f(t)"
+    },
+    "examples": [
+      "often",
+      "soften"
+    ]
+  },
+  "f-z": {
+    "representation": "f",
+    "condition": "Befôr Z.",
+    "pronunciation": {
+      "diaphoneme": "v",
+      "us": "v",
+      "ca": "v",
+      "uk": "v",
+      "au": "v"
+    },
+    "examples": [
+      "naifz",
+      "wuelfz"
+    ],
+    "note": "Euzd in plece ov orijinal f."
+  },
+  "g": {
+    "representation": "g",
+    "pronunciation": {
+      "diaphoneme": "ɡ",
+      "us": "ɡ",
+      "ca": "ɡ",
+      "uk": "ɡ",
+      "au": "ɡ"
+    },
+    "examples": [
+      "go",
+      "bag",
+      "agri"
+    ]
+  },
+  "gg": {
+    "representation": "gg",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "ɡ",
+      "us": "ɡ",
+      "ca": "ɡ",
+      "uk": "ɡ",
+      "au": "ɡ"
+    },
+    "examples": [
+      "bigger",
+      "nugget",
+      "logging"
+    ]
+  },
+  "gi": {
+    "representation": "gi",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "dʒ",
+      "us": "dʒ",
+      "ca": "dʒ",
+      "uk": "dʒ",
+      "au": "dʒ"
+    },
+    "examples": [
+      "religion",
+      "rîgion",
+      "gorgius"
+    ]
+  },
+  "h": {
+    "representation": "h",
+    "condition": "Thêr iz e vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "h",
+      "us": "h",
+      "ca": "h",
+      "uk": "h",
+      "au": "h"
+    },
+    "examples": [
+      "hat",
+      "happi",
+      "behaind"
+    ]
+  },
+  "h-silent": {
+    "representation": "h",
+    "condition": "It iz follouing e vauel, which mei interpret it az e konsonant.",
+    "pronunciation": {
+      "diaphoneme": "∅",
+      "us": "∅",
+      "ca": "∅",
+      "uk": "∅",
+      "au": "∅"
+    },
+    "examples": [
+      "thurroh",
+      "faiht",
+      "yeh"
+    ]
+  },
+  "i-long": {
+    "representation": "i",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "iː",
+      "us": "i",
+      "ca": "i",
+      "uk": "ɪi",
+      "au": "ɪi"
+    },
+    "examples": [
+      "slîp",
+      "mashîn",
+      "scîn"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil. Replecez instancez ov e singel vauel or dubbel \"ee\"."
+  },
+  "i-long-medial": {
+    "representation": "i",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr e konsonant, and iz thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "iː",
+      "us": "i",
+      "ca": "i",
+      "uk": "ɪi",
+      "au": "ɪi"
+    },
+    "examples": [
+      "miting",
+      "slipi",
+      "ricent"
+    ]
+  },
+  "i-long-final": {
+    "representation": "i",
+    "name": "strong long",
+    "condition": "It iz strest, and plecet at thi end ov thi wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "iː",
+      "us": "i",
+      "ca": "i",
+      "uk": "ɪi",
+      "au": "ɪi"
+    },
+    "examples": [
+      "mi",
+      "tri",
+      "triz"
+    ],
+    "note": "Replecez instancez ov e singel vauel or dubbel \"ee\"."
+  },
+  "i-long-prevocalic": {
+    "representation": "i",
+    "name": "strong long",
+    "condition": "It iz strest, and plecet befôr anuther vauel.",
+    "pronunciation": {
+      "diaphoneme": "iː",
+      "us": "i",
+      "ca": "i",
+      "uk": "ɪi",
+      "au": "ɪi"
+    },
+    "examples": [
+      "biing",
+      "meuzium",
+      "thiater"
+    ]
+  },
+  "i-long-unstressed-final": {
+    "representation": "i",
+    "name": "strong long unstrest",
+    "condition": "It iz unstrest, and iz thi last letter ov thi wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "i",
+      "us": "i",
+      "ca": "i",
+      "uk": "i, ɪ",
+      "au": "i"
+    },
+    "examples": [
+      "happi",
+      "taxi",
+      "riakt"
+    ]
+  },
+  "i-long-unstressed-prevocalic": {
+    "representation": "i",
+    "name": "strong long unstrest",
+    "condition": "It iz unstrest, and plecet befôr anuther vauel.",
+    "pronunciation": {
+      "diaphoneme": "i",
+      "us": "i",
+      "ca": "i",
+      "uk": "i, ɪ",
+      "au": "i"
+    },
+    "examples": [
+      "pianno",
+      "rêdio",
+      "kriêt"
+    ]
+  },
+  "i-short": {
+    "representation": "i",
+    "name": "strong short",
+    "condition": "It iz strest, but thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "vidio",
+      "mision",
+      "internet"
+    ]
+  },
+  "i-short-medial": {
+    "representation": "i",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants. (J and X kaunt az dubbel)",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "minnet",
+      "dijit",
+      "likking"
+    ]
+  },
+  "i-short-final": {
+    "representation": "i",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant.",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "sit",
+      "fin",
+      "think"
+    ]
+  },
+  "i-weak": {
+    "representation": "i",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "nuthing",
+      "inaktiv",
+      "imajin"
+    ]
+  },
+  "i-weak-initial": {
+    "representation": "i",
+    "name": "wiek",
+    "condition": "It iz unstrest, and at thi beginnings ov wurds.",
+    "pronunciation": {
+      "diaphoneme": "ɪ",
+      "us": "ɪ",
+      "ca": "ɪ",
+      "uk": "ɪ",
+      "au": "ɪ"
+    },
+    "examples": [
+      "iregeular",
+      "insaid",
+      "iracional"
+    ]
+  },
+  "i-weak-reduced": {
+    "representation": "i",
+    "name": "weak redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "ə",
+      "us": "ə",
+      "ca": "ə",
+      "uk": "ə",
+      "au": "ə"
+    },
+    "examples": [
+      "abiliti",
+      "posibel",
+      "definit"
+    ]
+  },
+  "ir-long": {
+    "representation": "îr",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "ɪər",
+      "us": "ɪɚ",
+      "ca": "ɪɚ",
+      "uk": "ɪː(ɹ), ɪə(ɹ)",
+      "au": "ɪː(ɹ), ɪə(ɹ)"
+    },
+    "examples": [
+      "stîr",
+      "bîrd",
+      "sîrius"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil. Replecez instancez ov e singel vauel or dubbel \"ee\"."
+  },
+  "ir-long-medial": {
+    "representation": "ir",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ɪər",
+      "us": "ɪɚ",
+      "ca": "ɪɚ",
+      "uk": "ɪː(ɹ), ɪə(ɹ)",
+      "au": "ɪː(ɹ), ɪə(ɹ)"
+    },
+    "examples": [
+      "ziro",
+      "hiro",
+      "stiring"
+    ]
+  },
+  "ir-short": {
+    "representation": "ir",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "əː(ɹ), ɜː(ɹ)",
+      "au": "ɜː(ɹ)"
+    },
+    "examples": [
+      "first",
+      "girl",
+      "konfirm"
+    ]
+  },
+  "ir-short-medial": {
+    "representation": "ir",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "əː(ɹ), ɜː(ɹ)",
+      "au": "ɜː(ɹ)"
+    },
+    "examples": [
+      "stirring",
+      "dirti",
+      "quirki"
+    ]
+  },
+  "ir-derhoticized": {
+    "representation": "ir",
+    "name": "strong derôticaizd",
+    "condition": "It iz strest, and plecet befôr e vauel, and thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ɪər",
+      "us": "ɪɚ",
+      "ca": "ɪɚ",
+      "uk": "ɪːɹ, ɪəɹ",
+      "au": "ɪːɹ, ɪəɹ"
+    },
+    "examples": [
+      "mirakel"
+    ],
+    "note": "Aolternativ tu \"irr\" in multisilabbik wurds."
+  },
+  "irr": {
+    "name": "strong derôticaizd",
+    "representation": "irr",
+    "pronunciation": {
+      "diaphoneme": "ɪər",
+      "us": "ɪɚ",
+      "ca": "ɪɚ",
+      "uk": "ɪːɹ, ɪəɹ",
+      "au": "ɪːɹ, ɪəɹ"
+    },
+    "examples": [
+      "mirror",
+      "spirrit",
+      "squirrel"
+    ]
+  },
+  "ir-weak": {
+    "representation": "ir",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "inspirêcion",
+      "emirats"
+    ]
+  },
+  "ie": {
+    "representation": "ie",
+    "pronunciation": {
+      "diaphoneme": "iː",
+      "us": "i",
+      "ca": "i",
+      "uk": "ɪi",
+      "au": "ɪi"
+    },
+    "examples": [
+      "keutie",
+      "mien",
+      "iet"
+    ],
+    "note": "Replecez instancez ov môr than won orijinal vauel. In fainal pozicion marks naunz."
+  },
+  "ier": {
+    "representation": "ier",
+    "pronunciation": {
+      "diaphoneme": "ɪər",
+      "us": "ɪɚ",
+      "ca": "ɪɚ",
+      "uk": "ɪː(ɹ), ɪə(ɹ)",
+      "au": "ɪː(ɹ), ɪə(ɹ)"
+    },
+    "examples": [
+      "nier",
+      "dier",
+      "paionier"
+    ],
+    "note": "Replecez instancez ov môr than won orijinal vauel."
+  },
+  "j": {
+    "representation": "j",
+    "condition": "Mêks thi priciding vauel short",
+    "pronunciation": {
+      "diaphoneme": "dʒ",
+      "us": "dʒ",
+      "ca": "dʒ",
+      "uk": "dʒ",
+      "au": "dʒ"
+    },
+    "examples": [
+      "jam",
+      "pêje",
+      "jeneral"
+    ]
+  },
+  "k": {
+    "representation": "k",
+    "pronunciation": {
+      "diaphoneme": "k",
+      "us": "k(ʰ)",
+      "ca": "k(ʰ)",
+      "uk": "k(ʰ)",
+      "au": "k(ʰ)"
+    },
+    "examples": [
+      "kait",
+      "bak",
+      "ski"
+    ],
+    "note": "Replecez orijinal letter C."
+  },
+  "kk": {
+    "representation": "kk",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "k",
+      "us": "kʰ",
+      "ca": "kʰ",
+      "uk": "kʰ",
+      "au": "kʰ"
+    },
+    "examples": [
+      "stakking",
+      "lokker",
+      "sekkond"
+    ],
+    "note": "Euzd in plece ov orijinal \"ck\"."
+  },
+  "l": {
+    "representation": "l",
+    "pronunciation": {
+      "diaphoneme": "l",
+      "us": "l",
+      "ca": "l",
+      "uk": "l",
+      "au": "l"
+    },
+    "examples": [
+      "let",
+      "baol",
+      "eleven"
+    ]
+  },
+  "ll": {
+    "representation": "ll",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "l",
+      "us": "l",
+      "ca": "l",
+      "uk": "l",
+      "au": "l"
+    },
+    "examples": [
+      "kullor",
+      "follou",
+      "seller"
+    ]
+  },
+  "li": {
+    "representation": "li",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "lj",
+      "us": "lj",
+      "ca": "lj",
+      "uk": "lj",
+      "au": "lj"
+    },
+    "examples": [
+      "milion",
+      "familiar",
+      "valiu"
+    ]
+  },
+  "l-eu": {
+    "representation": "l",
+    "condition": "Befôr EU.",
+    "pronunciation": {
+      "diaphoneme": "l(j)",
+      "us": "l",
+      "ca": "l",
+      "uk": "l(j)",
+      "au": "l(j)"
+    },
+    "examples": [
+      "bleu",
+      "leuk",
+      "fleut"
+    ]
+  },
+  "m": {
+    "representation": "m",
+    "pronunciation": {
+      "diaphoneme": "m",
+      "us": "m",
+      "ca": "m",
+      "uk": "m",
+      "au": "m"
+    },
+    "examples": [
+      "man",
+      "bekum",
+      "impîrium"
+    ]
+  },
+  "mm": {
+    "representation": "mm",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "m",
+      "us": "m",
+      "ca": "m",
+      "uk": "m",
+      "au": "m"
+    },
+    "examples": [
+      "summon",
+      "bekumming",
+      "limmit"
+    ]
+  },
+  "n": {
+    "representation": "n",
+    "pronunciation": {
+      "diaphoneme": "n",
+      "us": "n",
+      "ca": "n",
+      "uk": "n",
+      "au": "n"
+    },
+    "examples": [
+      "net",
+      "kan",
+      "nainti"
+    ]
+  },
+  "nn": {
+    "representation": "nn",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "n",
+      "us": "n",
+      "ca": "n",
+      "uk": "n",
+      "au": "n"
+    },
+    "examples": [
+      "dinner",
+      "bunni",
+      "pannel"
+    ]
+  },
+  "n-eu": {
+    "representation": "n",
+    "condition": "Befôr EU.",
+    "pronunciation": {
+      "diaphoneme": "n(j)",
+      "us": "n",
+      "ca": "n",
+      "uk": "nj",
+      "au": "nj"
+    },
+    "examples": [
+      "neu",
+      "neutral",
+      "neuron"
+    ]
+  },
+  "o-long": {
+    "representation": "ô",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "oʊ",
+      "us": "oʊ",
+      "ca": "oʊ",
+      "uk": "əu",
+      "au": "əʉ"
+    },
+    "examples": [
+      "stôn",
+      "bôn",
+      "lôcêcion"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil."
+  },
+  "o-long-medial": {
+    "representation": "o",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr e konsonant, and iz thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "oʊ",
+      "us": "oʊ",
+      "ca": "oʊ",
+      "uk": "əu",
+      "au": "əʉ"
+    },
+    "examples": [
+      "open",
+      "sober",
+      "token"
+    ]
+  },
+  "o-long-final": {
+    "representation": "o",
+    "name": "strong long",
+    "condition": "It iz strest, and plecet at thi end ov thi wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "oʊ",
+      "us": "oʊ",
+      "ca": "oʊ",
+      "uk": "əu",
+      "au": "əʉ"
+    },
+    "examples": [
+      "no",
+      "vidio",
+      "prokleim"
+    ]
+  },
+  "o-long-prevocalic": {
+    "representation": "o",
+    "name": "strong short",
+    "condition": "It iz plecet befôr anuther vauel.",
+    "pronunciation": {
+      "diaphoneme": "oʊ",
+      "us": "oʊ",
+      "ca": "oʊ",
+      "uk": "əu",
+      "au": "əʉ"
+    },
+    "examples": [
+      "oesis",
+      "poem",
+      "going"
+    ]
+  },
+  "o-short": {
+    "representation": "o",
+    "name": "strong short",
+    "condition": "It iz strest, but thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ɒ",
+      "us": "ɑ",
+      "ca": "ɑ",
+      "uk": "ɔ",
+      "au": "ɔ"
+    },
+    "examples": [
+      "popeular",
+      "holidei",
+      "opcion"
+    ]
+  },
+  "o-short-medial": {
+    "representation": "o",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants. (J and X kaunt az dubbel)",
+    "pronunciation": {
+      "diaphoneme": "ɒ",
+      "us": "ɑ",
+      "ca": "ɑ",
+      "uk": "ɔ",
+      "au": "ɔ"
+    },
+    "examples": [
+      "bother",
+      "kontakt",
+      "longer"
+    ]
+  },
+  "o-short-final": {
+    "representation": "o",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant.",
+    "pronunciation": {
+      "diaphoneme": "ɒ",
+      "us": "ɑ, ɔ",
+      "ca": "ɑ",
+      "uk": "ɔ",
+      "au": "ɔ"
+    },
+    "examples": [
+      "not",
+      "adopt",
+      "kloth"
+    ]
+  },
+  "o-short-final-centered": {
+    "representation": "o",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant. Thi centerd pronunciêcion iz not markt.",
+    "pronunciation": {
+      "diaphoneme": "ɒ, ʌ",
+      "us": "ʌ, ɑ",
+      "ca": "ʌ, ɑ",
+      "uk": "ɔ, ʌ",
+      "au": "ɔ, ʌ"
+    },
+    "examples": [
+      "ov",
+      "whot",
+      "from",
+      "woz"
+    ]
+  },
+  "o-weak": {
+    "representation": "o",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ə",
+      "us": "ə",
+      "ca": "ə",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "opinion",
+      "kondicion",
+      "sekkond"
+    ]
+  },
+  "or": {
+    "representation": "or",
+    "name": "strong",
+    "pronunciation": {
+      "diaphoneme": "ɔːr",
+      "us": "oɹ",
+      "ca": "oɹ",
+      "uk": "oː(ɹ)",
+      "au": "oː(ɹ)"
+    },
+    "examples": [
+      "stori",
+      "ignôr",
+      "order"
+    ],
+    "note": "Thi cirkumflex iz often plecet abuv, but thi pronunciêcion of \"or\" and \"ôr\" iz ônli different in e taini amaunt ov akcents that dônt hav thi \"horse-hoarse\" merjer."
+  },
+  "or-initial": {
+    "representation": "or",
+    "name": "strong",
+    "condition": "It iz unstrest, plecet at thi begining ov e wurd or morfîm, and folloud bai e konsonant.",
+    "pronunciation": {
+      "diaphoneme": "ɔːr",
+      "us": "oɹ",
+      "ca": "oɹ",
+      "uk": "oː(ɹ)",
+      "au": "oː(ɹ)"
+    },
+    "examples": [
+      "organik",
+      "orkestral"
+    ]
+  },
+  "or-derhoticized": {
+    "representation": "or",
+    "name": "strong derôticaizd",
+    "condition": "It iz strest, and plecet befôr e vauel, and thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ɔr",
+      "us": "oɹ",
+      "ca": "oɹ",
+      "uk": "ɔɹ",
+      "au": "ɔɹ"
+    },
+    "examples": [
+      "orijin",
+      "orakel",
+      "koridor"
+    ],
+    "note": "Aolternativ tu \"orr\" in multisilabbik wurds."
+  },
+  "orr": {
+    "name": "strong derôticaizd",
+    "representation": "orr",
+    "pronunciation": {
+      "diaphoneme": "ɔːr",
+      "us": "oɹ",
+      "ca": "oɹ",
+      "uk": "ɔɹ",
+      "au": "ɔɹ"
+    },
+    "examples": [
+      "horror",
+      "forrest",
+      "orrenje"
+    ]
+  },
+  "orr-lowered": {
+    "representation": "orr",
+    "name": "strong derôticaizd",
+    "condition": "Thi louerd pronunciêcion iz not markt.",
+    "pronunciation": {
+      "diaphoneme": "ɑːr",
+      "us": "ɑɹ",
+      "ca": "ɔɹ",
+      "uk": "ɔɹ",
+      "au": "ɔɹ"
+    },
+    "examples": [
+      "tuemorrou",
+      "sorri",
+      "sorrou",
+      "borrou",
+      "morrou"
+    ]
+  },
+  "or-weak": {
+    "representation": "or",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "doktor",
+      "informêcion",
+      "orijinal"
+    ]
+  },
+  "oi": {
+    "representation": "oi",
+    "pronunciation": {
+      "diaphoneme": "ɔɪ",
+      "us": "ɔɪ",
+      "ca": "ɔɪ",
+      "uk": "ɔi",
+      "au": "oɪ"
+    },
+    "examples": [
+      "boil",
+      "boi",
+      "koin"
+    ]
+  },
+  "oy": {
+    "representation": "oy",
+    "pronunciation": {
+      "diaphoneme": "ɔɪ",
+      "us": "ɔɪ",
+      "ca": "ɔɪ",
+      "uk": "ɔi",
+      "au": "oɪ"
+    },
+    "examples": [
+      "enjoying",
+      "employie"
+    ],
+    "note": "Euzd befôr \"i\" insted ov \"oi\"."
+  },
+  "ou": {
+    "representation": "ou",
+    "pronunciation": {
+      "diaphoneme": "oʊ",
+      "us": "oʊ",
+      "ca": "oʊ",
+      "uk": "əu",
+      "au": "əʉ"
+    },
+    "examples": [
+      "bout",
+      "roud",
+      "koul"
+    ],
+    "note": "Replecez instancez ov môr than won orijinal vauel."
+  },
+  "our": {
+    "representation": "our",
+    "pronunciation": {
+      "diaphoneme": "ɔr",
+      "us": "oɹ",
+      "ca": "oɹ",
+      "uk": "oː(ɹ)",
+      "au": "oː(ɹ)"
+    },
+    "examples": [
+      "four",
+      "your",
+      "our"
+    ],
+    "note": "Replecez instancez ov môr than won orijinal vauel."
+  },
+  "p": {
+    "representation": "p",
+    "pronunciation": {
+      "diaphoneme": "p",
+      "us": "p(ʰ)",
+      "ca": "p(ʰ)",
+      "uk": "p(ʰ)",
+      "au": "p(ʰ)"
+    },
+    "examples": [
+      "pen",
+      "spot",
+      "aplai"
+    ]
+  },
+  "pp": {
+    "representation": "pp",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "p",
+      "us": "pʰ",
+      "ca": "pʰ",
+      "uk": "pʰ",
+      "au": "pʰ"
+    },
+    "examples": [
+      "happi",
+      "shopping",
+      "upper"
+    ]
+  },
+  "q": {
+    "representation": "q",
+    "condition": "Aolweiz folloud bai \"u\".",
+    "pronunciation": {
+      "diaphoneme": "k",
+      "us": "k",
+      "ca": "k",
+      "uk": "k",
+      "au": "k"
+    },
+    "examples": [
+      "quik",
+      "aqua",
+      "îqual"
+    ]
+  },
+  "r": {
+    "representation": "r",
+    "condition": "Befôr e vauel.",
+    "pronunciation": {
+      "diaphoneme": "ɹ",
+      "us": "ɹ",
+      "ca": "ɹ",
+      "uk": "ɹ",
+      "au": "ɹ"
+    },
+    "examples": [
+      "rat",
+      "trap",
+      "reural"
+    ]
+  },
+  "s": {
+    "representation": "s",
+    "pronunciation": {
+      "diaphoneme": "s",
+      "us": "s",
+      "ca": "s",
+      "uk": "s",
+      "au": "s"
+    },
+    "examples": [
+      "sits",
+      "stop",
+      "asking"
+    ]
+  },
+  "ss": {
+    "representation": "ss",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "s",
+      "us": "s",
+      "ca": "s",
+      "uk": "s",
+      "au": "s"
+    },
+    "examples": [
+      "kissing",
+      "messi",
+      "lasso"
+    ]
+  },
+  "s-voiced": {
+    "representation": "s",
+    "name": "voicet",
+    "condition": "After B, D, G,  or V.",
+    "pronunciation": {
+      "diaphoneme": "z",
+      "us": "z",
+      "ca": "z",
+      "uk": "z",
+      "au": "z"
+    },
+    "examples": [
+      "egs",
+      "pads",
+      "observs"
+    ]
+  },
+  "si": {
+    "representation": "si",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "ʃ",
+      "us": "ʃ",
+      "ca": "ʃ",
+      "uk": "ʃ",
+      "au": "ʃ"
+    },
+    "examples": [
+      "mision",
+      "presiur",
+      "diskusion"
+    ]
+  },
+  "s-eu": {
+    "representation": "s",
+    "condition": "Befôr EU wurd-iniciali.",
+    "pronunciation": {
+      "diaphoneme": "s(j)",
+      "us": "s",
+      "ca": "s",
+      "uk": "s",
+      "au": "s"
+    },
+    "examples": [
+      "seuper",
+      "seut",
+      "seuprîm"
+    ]
+  },
+  "s-eu-noninitial": {
+    "representation": "s",
+    "condition": "Befôr EU if not wurd-inicial.",
+    "pronunciation": {
+      "diaphoneme": "s(j)",
+      "us": "s",
+      "ca": "s",
+      "uk": "sj, ʃ",
+      "au": "ʃ"
+    },
+    "examples": [
+      "aseum",
+      "purseut"
+    ]
+  },
+  "sh": {
+    "representation": "sh",
+    "pronunciation": {
+      "diaphoneme": "ʃ",
+      "us": "ʃ",
+      "ca": "ʃ",
+      "uk": "ʃ",
+      "au": "ʃ"
+    },
+    "examples": [
+      "ship",
+      "shauer",
+      "asheur"
+    ]
+  },
+  "t": {
+    "representation": "t",
+    "pronunciation": {
+      "diaphoneme": "t",
+      "us": "t(ʰ)",
+      "ca": "t(ʰ)",
+      "uk": "t(ʰ)",
+      "au": "t(ʰ)"
+    },
+    "examples": [
+      "tap",
+      "stop",
+      "minnet"
+    ]
+  },
+  "tt": {
+    "representation": "tt",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "t",
+      "us": "tʰ",
+      "ca": "tʰ",
+      "uk": "tʰ",
+      "au": "tʰ"
+    },
+    "examples": [
+      "butter",
+      "letter",
+      "setting"
+    ]
+  },
+  "ti": {
+    "representation": "ti",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "tʃ",
+      "us": "tʃ",
+      "ca": "tʃ",
+      "uk": "tʃ",
+      "au": "tʃ"
+    },
+    "examples": [
+      "question",
+      "adventiur",
+      "nêtiur"
+    ]
+  },
+  "t-eu": {
+    "representation": "t",
+    "condition": "Befôr EU.",
+    "pronunciation": {
+      "diaphoneme": "t",
+      "us": "t(ʰ)",
+      "ca": "t(ʰ)",
+      "uk": "tʃ",
+      "au": "tʃ"
+    },
+    "examples": [
+      "teun",
+      "Teuzdei",
+      "steudent"
+    ]
+  },
+  "t-r": {
+    "representation": "t",
+    "condition": "Befôr R.",
+    "pronunciation": {
+      "diaphoneme": "t",
+      "us": "tʃ",
+      "ca": "tʃ",
+      "uk": "tʃ",
+      "au": "tʃ"
+    },
+    "examples": [
+      "tri",
+      "atraktiv",
+      "trumpet"
+    ]
+  },
+  "t-intervocalic": {
+    "representation": "t",
+    "condition": "In betwên two vauelz, whêr thi priciding won iz strest.",
+    "pronunciation": {
+      "diaphoneme": "t",
+      "us": "ɾ, tʰ",
+      "ca": "ɾ, tʰ",
+      "uk": "tʰ",
+      "au": "ɾ, tʰ"
+    },
+    "examples": [
+      "artist",
+      "internet",
+      "ieten"
+    ]
+  },
+  "tt-intervocalic": {
+    "representation": "tt",
+    "condition": "In betwên two vauelz, whêr thi priciding won iz strest.",
+    "pronunciation": {
+      "diaphoneme": "t",
+      "us": "ɾ, tʰ",
+      "ca": "ɾ, tʰ",
+      "uk": "tʰ",
+      "au": "ɾ, tʰ"
+    },
+    "examples": [
+      "butter",
+      "citti",
+      "latter"
+    ]
+  },
+  "th-voiced": {
+    "representation": "th",
+    "name": "voicet",
+    "condition": "Unprediktabel.",
+    "pronunciation": {
+      "diaphoneme": "ð",
+      "us": "ð",
+      "ca": "ð",
+      "uk": "ð",
+      "au": "ð"
+    },
+    "examples": [
+      "this",
+      "that",
+      "fâther"
+    ],
+    "note": "Thi voicing distinktion woz dîmd unimportant deu tu thi lak ov minimal peirz."
+  },
+  "th-voiceless": {
+    "representation": "th",
+    "name": "voiceles",
+    "condition": "Unprediktabel.",
+    "pronunciation": {
+      "diaphoneme": "θ",
+      "us": "θ",
+      "ca": "θ",
+      "uk": "θ",
+      "au": "θ"
+    },
+    "examples": [
+      "think",
+      "thruh",
+      "bath"
+    ],
+    "note": "Thi voicing distinktion woz dîmd unimportant deu tu thi lak ov minimal peirz."
+  },
+  "u-long": {
+    "representation": "û",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "uː",
+      "us": "ʊu",
+      "ca": "ʊu",
+      "uk": "ʉu",
+      "au": "ʉː"
+    },
+    "examples": [
+      "sûn",
+      "mûd",
+      "sûnami"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil."
+  },
+  "u-long-medial": {
+    "representation": "u",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr e konsonant, and iz thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "uː",
+      "us": "ʊu",
+      "ca": "ʊu",
+      "uk": "ʉu",
+      "au": "ʉː"
+    },
+    "examples": [
+      "skuling",
+      "muvie",
+      "shuter"
+    ]
+  },
+  "u-long-final": {
+    "representation": "u",
+    "name": "strong long",
+    "condition": "It iz plecet at thi end ov thi wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "uː",
+      "us": "ʊu",
+      "ca": "ʊu",
+      "uk": "ʉu",
+      "au": "ʉː"
+    },
+    "examples": [
+      "du",
+      "thruh",
+      "intu"
+    ]
+  },
+  "u-long-prevocalic": {
+    "representation": "u",
+    "name": "strong long",
+    "condition": "It iz plecet befôr anuther vauel.",
+    "pronunciation": {
+      "diaphoneme": "uː",
+      "us": "ʊu",
+      "ca": "ʊu",
+      "uk": "ʉu",
+      "au": "ʉː"
+    },
+    "examples": [
+      "duing",
+      "viziual",
+      "sitiuêcion"
+    ]
+  },
+  "u-short": {
+    "representation": "u",
+    "name": "strong short",
+    "condition": "It iz strest, but thêr ar multipel vauelz follouing.",
+    "pronunciation": {
+      "diaphoneme": "ʌ",
+      "us": "ə",
+      "ca": "ʌ",
+      "uk": "ʌ",
+      "au": "ɐ"
+    },
+    "examples": [
+      "diskusion",
+      "publisher",
+      "sumari"
+    ]
+  },
+  "u-short-medial": {
+    "representation": "u",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants. (J and X kaunt az dubbel)",
+    "pronunciation": {
+      "diaphoneme": "ʌ",
+      "us": "ə",
+      "ca": "ʌ",
+      "uk": "ʌ",
+      "au": "ɐ"
+    },
+    "examples": [
+      "summer",
+      "bujet",
+      "dubbel"
+    ]
+  },
+  "u-short-final": {
+    "representation": "u",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd, folloud bai at liest won konsonant.",
+    "pronunciation": {
+      "diaphoneme": "ʌ",
+      "us": "ə",
+      "ca": "ʌ",
+      "uk": "ʌ",
+      "au": "ɐ"
+    },
+    "examples": [
+      "but",
+      "up",
+      "luv"
+    ]
+  },
+  "u-weak": {
+    "representation": "u",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ə",
+      "us": "ə",
+      "ca": "ə",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "upon",
+      "vairus",
+      "suport"
+    ]
+  },
+  "u-weak-silent": {
+    "representation": "u",
+    "name": "weak sailent",
+    "condition": "It iz unstrest, befôr L or R, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "∅, ə",
+      "us": "∅, ə",
+      "ca": "∅, ə",
+      "uk": "∅, ə",
+      "au": "∅, ə"
+    },
+    "examples": [
+      "aktiuali"
+    ]
+  },
+  "ur-long": {
+    "representation": "ûr",
+    "name": "strong long",
+    "pronunciation": {
+      "diaphoneme": "ʊər",
+      "us": "ʊɹ, ɝ, oɹ",
+      "ca": "ʊɹ, ɝ, oɹ",
+      "uk": "ʊə(ɹ), oː(ɹ)",
+      "au": "ʉːə(ɹ)"
+    },
+    "examples": [
+      "tûr",
+      "tûrnament",
+      "pûr"
+    ],
+    "note": "Ônli euzd if aol uther kontext reulz feil."
+  },
+  "ur-long-medial": {
+    "representation": "ur",
+    "name": "strong long",
+    "condition": "It iz strest, plecet befôr e konsonant, and iz thi last pronauncet vauel of thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ʊər",
+      "us": "ʊɹ, ɝ, oɹ",
+      "ca": "ʊɹ, ɝ, oɹ",
+      "uk": "ʊə(ɹ), oː(ɹ)",
+      "au": "ʉːə(ɹ)"
+    },
+    "examples": [
+      "turist",
+      "purer"
+    ]
+  },
+  "ur-short": {
+    "representation": "ur",
+    "name": "strong short",
+    "condition": "It iz strest, and iz thi last vauel ov thi wurd.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "fur",
+      "return",
+      "church"
+    ]
+  },
+  "ur-short-medial": {
+    "representation": "ur",
+    "name": "strong short",
+    "condition": "It iz strest, folloud bai at liest twu konsonants.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "purple",
+      "further",
+      "furri"
+    ]
+  },
+  "urr": {
+    "representation": "urr",
+    "pronunciation": {
+      "diaphoneme": "ʌr",
+      "us": "əɹ",
+      "ca": "ʌɹ",
+      "uk": "ʌɹ",
+      "au": "ɐɹ"
+    },
+    "examples": [
+      "hurri",
+      "kurrent",
+      "wurri"
+    ]
+  },
+  "ur-weak": {
+    "representation": "ur",
+    "name": "wiek",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "ər",
+      "us": "ɚ",
+      "ca": "ɚ",
+      "uk": "ə(ɹ)",
+      "au": "ə(ɹ)"
+    },
+    "examples": [
+      "surpraiz",
+      "adventiur",
+      "natur"
+    ]
+  },
+  "u-semivowel": {
+    "representation": "u",
+    "name": "semivauel",
+    "condition": "After Q or G.",
+    "pronunciation": {
+      "diaphoneme": "w",
+      "us": "w",
+      "ca": "w",
+      "uk": "w",
+      "au": "w"
+    },
+    "examples": [
+      "quest",
+      "langueje",
+      "aqua"
+    ]
+  },
+  "ue": {
+    "representation": "ue",
+    "pronunciation": {
+      "diaphoneme": "ʊ",
+      "us": "ʊ",
+      "ca": "ʊ",
+      "uk": "ʊ",
+      "au": "ʊ"
+    },
+    "examples": [
+      "tuedei",
+      "gued",
+      "bueri"
+    ]
+  },
+  "v": {
+    "representation": "v",
+    "pronunciation": {
+      "diaphoneme": "v",
+      "us": "v",
+      "ca": "v",
+      "uk": "v",
+      "au": "v"
+    },
+    "examples": [
+      "vat",
+      "luv",
+      "observ"
+    ]
+  },
+  "vv": {
+    "representation": "vv",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "v",
+      "us": "v",
+      "ca": "v",
+      "uk": "v",
+      "au": "v"
+    },
+    "examples": [
+      "evver",
+      "sevven",
+      "livving"
+    ]
+  },
+  "w": {
+    "representation": "w",
+    "pronunciation": {
+      "diaphoneme": "w",
+      "us": "w",
+      "ca": "w",
+      "uk": "w",
+      "au": "w"
+    },
+    "examples": [
+      "wet",
+      "awêk",
+      "west"
+    ]
+  },
+  "wh": {
+    "representation": "wh",
+    "pronunciation": {
+      "diaphoneme": "ʍ",
+      "us": "w",
+      "ca": "w",
+      "uk": "w",
+      "au": "w"
+    },
+    "examples": [
+      "when",
+      "whêl",
+      "whisper"
+    ],
+    "note": "In akcents that hâv thi \"whine-wine\" distinkcion."
+  },
+  "x": {
+    "representation": "x",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "ks",
+      "us": "ks",
+      "ca": "ks",
+      "uk": "ks",
+      "au": "ks"
+    },
+    "examples": [
+      "exercaiz",
+      "mix",
+      "explanêcion"
+    ]
+  },
+  "xz": {
+    "representation": "xz",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "gz",
+      "us": "gz",
+      "ca": "gz",
+      "uk": "gz",
+      "au": "gz"
+    },
+    "examples": [
+      "exzakt",
+      "exzam",
+      "exzibit"
+    ]
+  },
+  "y": {
+    "representation": "y",
+    "pronunciation": {
+      "diaphoneme": "j",
+      "us": "j",
+      "ca": "j",
+      "uk": "j",
+      "au": "j"
+    },
+    "examples": [
+      "yes",
+      "beyond",
+      "bakyard"
+    ]
+  },
+  "z": {
+    "representation": "z",
+    "pronunciation": {
+      "diaphoneme": "z",
+      "us": "z",
+      "ca": "z",
+      "uk": "z",
+      "au": "z"
+    },
+    "examples": [
+      "lezi",
+      "haz",
+      "ziro"
+    ]
+  },
+  "zz": {
+    "representation": "zz",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "z",
+      "us": "z",
+      "ca": "z",
+      "uk": "z",
+      "au": "z"
+    },
+    "examples": [
+      "fizzi",
+      "buzzing",
+      "vizzit"
+    ]
+  },
+  "zi": {
+    "representation": "zi",
+    "condition": "Thêr iz an unstrest vauel follouing.",
+    "pronunciation": {
+      "diaphoneme": "ʒ",
+      "us": "ʒ",
+      "ca": "ʒ",
+      "uk": "ʒ",
+      "au": "ʒ"
+    },
+    "examples": [
+      "vizion",
+      "aziur",
+      "meziur"
+    ]
+  },
+  "z-eu": {
+    "representation": "z",
+    "condition": "Befôr EU wurd-iniciali.",
+    "pronunciation": {
+      "diaphoneme": "z(j)",
+      "us": "z",
+      "ca": "z",
+      "uk": "z",
+      "au": "z"
+    },
+    "examples": [
+      "Zeus"
+    ]
+  },
+  "z-eu-noninitial": {
+    "representation": "z",
+    "condition": "Befôr EU if not wurd-inicial.",
+    "pronunciation": {
+      "diaphoneme": "z(j)",
+      "us": "z",
+      "ca": "z",
+      "uk": "zj, ʒ",
+      "au": "ʒ"
+    },
+    "examples": [
+      "rezeum",
+      "prezeum"
+    ]
+  },
+  "zh": {
+    "representation": "zh",
+    "pronunciation": {
+      "diaphoneme": "(d)ʒ",
+      "us": "(d)ʒ",
+      "ca": "(d)ʒ",
+      "uk": "(d)ʒ",
+      "au": "(d)ʒ"
+    },
+    "examples": [
+      "zhonra",
+      "reizhîm",
+      "luxzheurius"
+    ]
+  },
+  "reduced": {
+    "representation": "iregeular",
+    "name": "redeucet",
+    "condition": "Thi iregeular pronunciêcion ov thi letter kumz from e strong redukcion."
+  },
+  "": {
+    "representation": "iregeular",
+    "condition": "Unprediktabel.",
+    "note": "Deu tu e disagriment betwîn akcents and thi wurd dîmd tû kommon, won iregeular spelling iz chôzen."
+  },
+  "letter": {
+    "representation": "letter name",
+    "condition": "Pronunciêcion ov e letter in thi alfabet."
+  },
+  "space": {
+    "representation": "spece"
+  }
+}

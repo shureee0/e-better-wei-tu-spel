@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('NotoSans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--background-dark);
+    color: var(--text);
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+    font-size: var(--default-font-size);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    margin-bottom: 1rem;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.title {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.title-text {
+    width: 70%;
+}
+
+h1 {
+    font-family: var(--title-font);
+    font-size: clamp(2rem, 6vw, 3rem);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.author {
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: var(--text-muted);
+}
+
+.description-box {
+    margin-left: 0.1rem;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 0;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    max-height: 2.7rem;
+    transition: max-height 0.3s ease;
+}
+
+.description.elipsis {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+}
+
+.description-button {
+    font-family: var(--default-font-size);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-muted);
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.title-buttons {
+    margin-top: 2rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: max-content;
+    justify-content: end;
+    align-content: start;
+    gap: 1rem
+}
+
+.title-buttons > *{
+    font-family: var(--title-font);
+    border-radius: 1rem;
+    border: none;
+    width: 8rem;
+    height: 2.5rem;
+    color: var(--background-dark);
+    cursor: pointer;
+}
+
+.button-guide {
+    font-size: 1.5rem;
+    color: var(--accent-dark);
+    background-color: var(--accent);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0.4rem 0 0 var(--accent-shadow);
+}
+
+.button-guide:hover {
+    background-color: var(--accent-light);
+}
+
+.button-side {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    background-color: var(--background);
+    transition: color 0.3s ease;
+    box-shadow: 0 0.4rem 0 0 var(--background-shadow);
+}
+
+.button-side:hover {
+    background-color: var(--background-light);
+    color: var(--text)
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.muted-header {
+    margin-left: 1rem;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: var(--text-muted);
+}
+
+.generator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+
+.text-box {
+    margin: 0rem;
+    flex: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    min-width: 22rem;
+    min-height: 10rem;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--default-font-size);
+    font-size: 1.8rem;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    box-shadow: 0 0.8rem 0 0 var(--background-shadow);
+}
+
+textarea {
+    margin: 0rem;
+    flex: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    min-width: 22rem;
+    height: 10rem;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--default-font-size);
+    font-size: 1.8rem;
+    resize: none;
+    outline: none;
+    border: none;
+    box-shadow: 0 0.8rem 0 0 var(--background-shadow);
+}
+
+textarea::placeholder {
+    color: var(--text-muted);
+}
+
+.output.placeholder {
+    color: var(--text-muted);
+}
+
+.muted-text {
+    color: var(--text-muted);
+}
+
+.explanation-button {
+    position: relative;
+    z-index: 0;
+
+    padding: 0;
+    border: none;
+    background: none;
+
+    color: var(--text);
+    font-family: var(--default-font-size);
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.explanation-button::before {
+    content: "";
+    position: absolute;
+    inset: -0.2rem -0.5rem;
+
+    background-color: var(--background-light);
+    border-radius: 2rem;
+
+    opacity: 0;
+    transform: scale(0.75);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: -1;
+}
+
+.explanation-button:hover::before,
+.explanation-button:hover:focus-visible::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.character {
+    color: var(--text);
+}
+
+
+/* Reading box layout */
+
+.reading-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.reading-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.25rem;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    line-height: 0.5rem;
+}
+
+.reading-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.reading-content .spelling {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0rem;
+}
+
+.letter-button {
+    position: relative;
+    z-index: 0;
+
+    padding: 0;
+    border: none;
+    background: none;
+
+    color: var(--text);
+    font-family: var(--default-font-size);
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.letter-button::before {
+    content: "";
+    position: absolute;
+    inset: -0.2rem -0.5rem;
+
+    background-color: var(--background-light);
+    border-radius: 2rem;
+
+    opacity: 0;
+    transform: scale(0.75);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: -1;
+}
+
+.letter-button:hover::before,
+.letter-button:hover:focus-visible::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.dot {
+    color: var(--text-muted);
+}
+
+.ipa {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.4rem;
+    color: var(--accent);
+}
+
+.letter-header {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.representation {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    color: var(--text);
+}
+
+.letter-name {
+    font-size: 1.8rem;
+    color: var(--text-muted);
+}
+
+.letter-section {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.25rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.75rem;
+}
+
+.letter-section-header {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+}
+
+.letter-description {
+    font-size: 1.2rem;
+}
+
+.letter-examples {
+    font-family: var(--title-font);
+    font-size: 1.2rem;
+}
+
+.entries-number {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .text-box {
+        min-width: 16rem;
+        min-height: 4rem;
+    }
+
+    textarea {
+        min-width: 16rem;
+        height: 4rem;
+    }
+}
+
+:root {
+    --background-dark: oklch(18% 0.008 220);
+    --background-shadow: oklch(21% 0.008 220);
+    --background: oklch(24% 0.008 220);
+    --background-light: oklch(33% 0.002 220);
+    --accent-dark: oklch(35% 0.07 230);
+    --accent-shadow: oklch(50% 0.08 230);
+    --accent: oklch(80% 0.13 230);
+    --accent-light: oklch(87% 0.12 230);
+    --text: oklch(100% 0 0);
+    --text-muted: oklch(70% 0 0);
+    --default-font-size: 1.25rem;
+    --title-font: "Red Hat Display", sans-serif;
+}
