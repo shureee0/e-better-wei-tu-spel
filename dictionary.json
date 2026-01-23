@@ -28,7 +28,7 @@
     },
     {
       "title": "letter ov thi alfabet",
-      "spelling": "a",
+      "spelling": "A",
       "explanation": [
         {
           "letters": [
@@ -44,7 +44,7 @@
   ],
   "b": [
     {
-      "spelling": "b",
+      "spelling": "B",
       "explanation": [
         {
           "letters": [
@@ -60,7 +60,7 @@
   ],
   "c": [
     {
-      "spelling": "c",
+      "spelling": "C",
       "explanation": [
         {
           "letters": [
@@ -76,7 +76,7 @@
   ],
   "d": [
     {
-      "spelling": "d",
+      "spelling": "D",
       "explanation": [
         {
           "letters": [
@@ -92,7 +92,7 @@
   ],
   "e": [
     {
-      "spelling": "e",
+      "spelling": "E",
       "explanation": [
         {
           "letters": [
@@ -108,7 +108,7 @@
   ],
   "f": [
     {
-      "spelling": "f",
+      "spelling": "F",
       "explanation": [
         {
           "letters": [
@@ -124,7 +124,7 @@
   ],
   "g": [
     {
-      "spelling": "g",
+      "spelling": "G",
       "explanation": [
         {
           "letters": [
@@ -140,7 +140,7 @@
   ],
   "h": [
     {
-      "spelling": "h",
+      "spelling": "H",
       "explanation": [
         {
           "letters": [
@@ -172,7 +172,7 @@
     },
     {
       "title": "letter ov thi alfabet",
-      "spelling": "i",
+      "spelling": "I",
       "explanation": [
         {
           "letters": [
@@ -188,7 +188,7 @@
   ],
   "j": [
     {
-      "spelling": "j",
+      "spelling": "J",
       "explanation": [
         {
           "letters": [
@@ -204,7 +204,7 @@
   ],
   "k": [
     {
-      "spelling": "k",
+      "spelling": "K",
       "explanation": [
         {
           "letters": [
@@ -220,7 +220,23 @@
   ],
   "l": [
     {
+      "title": "kontrakcion ov \"wil\"",
       "spelling": "l",
+      "explanation": [
+        {
+          "letters": [
+            {
+              "letter": "'l",
+              "class": "l"
+            }
+          ],
+          "reading": "l"
+        }
+      ]
+    },
+    {
+      "title": "letter ov thi alfabet",
+      "spelling": "L",
       "explanation": [
         {
           "letters": [
@@ -237,7 +253,7 @@
   "m": [
     {
       "title": "kontrakcion ov \"am\"",
-      "spelling": "m",
+      "spelling": "M",
       "explanation": [
         {
           "letters": [
@@ -252,7 +268,7 @@
     },
     {
       "title": "letter ov thi alfabet",
-      "spelling": "m",
+      "spelling": "M",
       "explanation": [
         {
           "letters": [
@@ -268,7 +284,7 @@
   ],
   "n": [
     {
-      "spelling": "n",
+      "spelling": "N",
       "explanation": [
         {
           "letters": [
@@ -284,7 +300,7 @@
   ],
   "o": [
     {
-      "spelling": "o",
+      "spelling": "O",
       "explanation": [
         {
           "letters": [
@@ -300,7 +316,7 @@
   ],
   "p": [
     {
-      "spelling": "p",
+      "spelling": "P",
       "explanation": [
         {
           "letters": [
@@ -316,7 +332,7 @@
   ],
   "q": [
     {
-      "spelling": "q",
+      "spelling": "Q",
       "explanation": [
         {
           "letters": [
@@ -332,7 +348,7 @@
   ],
   "r": [
     {
-      "spelling": "r",
+      "spelling": "R",
       "explanation": [
         {
           "letters": [
@@ -364,7 +380,7 @@
     },
     {
       "title": "letter ov thi alfabet",
-      "spelling": "s",
+      "spelling": "S",
       "explanation": [
         {
           "letters": [
@@ -396,7 +412,7 @@
     },
     {
       "title": "letter ov thi alfabet",
-      "spelling": "t",
+      "spelling": "T",
       "explanation": [
         {
           "letters": [
@@ -412,7 +428,7 @@
   ],
   "u": [
     {
-      "spelling": "u",
+      "spelling": "U",
       "explanation": [
         {
           "letters": [
@@ -428,7 +444,7 @@
   ],
   "v": [
     {
-      "spelling": "v",
+      "spelling": "V",
       "explanation": [
         {
           "letters": [
@@ -444,7 +460,7 @@
   ],
   "w": [
     {
-      "spelling": "w",
+      "spelling": "W",
       "explanation": [
         {
           "letters": [
@@ -460,7 +476,7 @@
   ],
   "x": [
     {
-      "spelling": "x",
+      "spelling": "X",
       "explanation": [
         {
           "letters": [
@@ -476,7 +492,7 @@
   ],
   "y": [
     {
-      "spelling": "y",
+      "spelling": "Y",
       "explanation": [
         {
           "letters": [
@@ -492,7 +508,7 @@
   ],
   "z": [
     {
-      "spelling": "z",
+      "spelling": "Z",
       "explanation": [
         {
           "letters": [

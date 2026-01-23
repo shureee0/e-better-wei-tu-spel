@@ -99,6 +99,33 @@ function updateOutput() {
   }
 }
 
+  // Capitalize word based on input pattern
+function capitalizeByPattern(word, inputWord) {
+  if (!inputWord) return word;
+  
+  // Rule 1: If input is 1 letter and uppercase, capitalize first letter of output
+  if (inputWord.length === 1 && inputWord === inputWord.toUpperCase()) {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }
+  
+  // Rule 2: If input is longer and both first and last letters are uppercase, make all uppercase
+  if (inputWord.length > 1 && 
+      inputWord.charAt(0) === inputWord.charAt(0).toUpperCase() && 
+      inputWord.charAt(inputWord.length - 1) === inputWord.charAt(inputWord.length - 1).toUpperCase()) {
+    return word.toUpperCase();
+  }
+  
+  // Rule 3: If input is longer and starts with uppercase but doesn't end with uppercase, capitalize first letter only
+  if (inputWord.length > 1 && 
+      inputWord.charAt(0) === inputWord.charAt(0).toUpperCase() && 
+      inputWord.charAt(inputWord.length - 1) === inputWord.charAt(inputWord.length - 1).toLowerCase()) {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }
+  
+  // Default: lowercase
+  return word.toLowerCase();
+}
+
   // look up words in dictionary
 function findInDictionary() {
   const text = textarea.value
@@ -151,7 +178,8 @@ function findInDictionary() {
 
           // Add clickable spelling button
           const button = document.createElement("button");
-          button.textContent = entry.spelling;
+          const capitalizedSpelling = capitalizeByPattern(entry.spelling, text.trim());
+          button.textContent = capitalizedSpelling;
           button.className = "explanation-button";
 
           button.addEventListener("click", () => {
@@ -173,6 +201,10 @@ function findInDictionary() {
         const selectedIndex = customWordSelections[key] || 0;
         const selectedEntry = entries[selectedIndex];
         const translation = selectedEntry.spelling;
+        
+        // Get the original input word to match capitalization
+        const originalInputWord = tokens.find(t => t.toLowerCase() === key);
+        const capitalizedTranslation = capitalizeByPattern(translation, originalInputWord);
 
         const wordWrapper = document.createElement("span");
         wordWrapper.className = "word-wrapper";
@@ -180,7 +212,7 @@ function findInDictionary() {
         wordWrapper.style.display = "inline-block";
 
         const button = document.createElement("button");
-        button.textContent = translation;
+        button.textContent = capitalizedTranslation;
         button.className = "explanation-button";
 
         // Show count badge if multiple entries and not manually selected
@@ -284,12 +316,37 @@ function showEntryDropdown(parentElement, wordKey, entries, currentIndex) {
     dropdown.appendChild(option);
   });
 
-  parentElement.appendChild(dropdown);
+  // Append to body to use fixed positioning
+  document.body.appendChild(dropdown);
 
-  // Close dropdown when clicking outside
+  // Position the dropdown
   setTimeout(() => {
+    const buttonRect = parentElement.getBoundingClientRect();
+    let top = buttonRect.bottom + 8; // 8px offset for margin-top
+
+    // Get the dropdown dimensions
+    const dropdownWidth = dropdown.offsetWidth;
+    
+    // Try to align with button left, but adjust if off-screen
+    let left = buttonRect.left;
+    
+    // Check if dropdown goes off-screen to the right
+    if (left + dropdownWidth > window.innerWidth - 10) {
+      // Move it left so it fits on screen
+      left = window.innerWidth - dropdownWidth - 10;
+    }
+
+    // Make sure it doesn't go off-screen to the left
+    if (left < 10) {
+      left = 10;
+    }
+
+    dropdown.style.left = left + "px";
+    dropdown.style.top = top + "px";
+
+    // Close dropdown when clicking outside
     document.addEventListener("click", function closeDropdown(e) {
-      if (!parentElement.contains(e.target)) {
+      if (!parentElement.contains(e.target) && !dropdown.contains(e.target)) {
         dropdown.remove();
         document.removeEventListener("click", closeDropdown);
       }
