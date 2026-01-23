@@ -106,12 +106,15 @@ function findInDictionary() {
 
   let lastKey = null;
 
+  // Check if the input is ONLY a single word with no other characters (no spaces, punctuation, etc.)
+  const isSingleWord = /^[A-Za-z]+$/.test(text.trim());
+  let singleWordKey = null;
+
   tokens.forEach(token => {
     // if it's not a word
     if (!/^[A-Za-z]+$/.test(token)) {
       const character = document.createElement("span");
       character.textContent = token;
-      character.className = "character";
       output.appendChild(character);
       return;
     }
@@ -120,28 +123,67 @@ function findInDictionary() {
 
     if (dictionary[key]) {
       lastKey = key;
-      const firstEntry = dictionary[key][0];
-      const firstTranslation = firstEntry.spelling;
+      singleWordKey = key;
+      const entries = dictionary[key];
 
-      const button = document.createElement("button");
-      button.textContent = firstTranslation;
-      button.className = "explanation-button";
+      // If it's a single word with multiple entries, show all options
+      if (isSingleWord && entries.length > 1) {
+        entries.forEach((entry) => {
+          // Create a container for each entry
+          const entryDiv = document.createElement("div");
+          entryDiv.className = "output-section";
 
-      button.addEventListener("click", () => {
-        selectedManually = true;
-        const entries = dictionary[key];
-        if (entries && entries.length > 0) {
-          buildReadingBox(entries[0].explanation);
-          // automatically update letter box with first letter
-          const firstReading = entries[0].explanation[0];
-          if (firstReading && firstReading.letters && firstReading.letters.length > 0) {
-            const firstLetter = firstReading.letters[0];
-            buildLetterBox(firstLetter.class);
+          // Add title if it exists
+          if (entry.title) {
+            const title = document.createElement("span");
+            title.textContent = `${entry.title}: `;
+            title.className = "output-title";
+            entryDiv.appendChild(title);
           }
-        }
-      });
 
-      output.appendChild(button);
+          // Add clickable spelling button
+          const button = document.createElement("button");
+          button.textContent = entry.spelling;
+          button.className = "explanation-button";
+
+          button.addEventListener("click", () => {
+            selectedManually = true;
+            buildReadingBox(entry.explanation);
+            // automatically update letter box with first letter
+            const firstReading = entry.explanation[0];
+            if (firstReading && firstReading.letters && firstReading.letters.length > 0) {
+              const firstLetter = firstReading.letters[0];
+              buildLetterBox(firstLetter.class);
+            }
+          });
+
+          entryDiv.appendChild(button);
+          output.appendChild(entryDiv);
+        });
+      } else {
+        // Normal mode: show first translation
+        const firstEntry = entries[0];
+        const firstTranslation = firstEntry.spelling;
+
+        const button = document.createElement("button");
+        button.textContent = firstTranslation;
+        button.className = "explanation-button";
+
+        button.addEventListener("click", () => {
+          selectedManually = true;
+          if (entries && entries.length > 0) {
+            buildReadingBox(entries[0].explanation);
+            // automatically update letter box with first letter
+            const firstReading = entries[0].explanation[0];
+            if (firstReading && firstReading.letters && firstReading.letters.length > 0) {
+              const firstLetter = firstReading.letters[0];
+              buildLetterBox(firstLetter.class);
+            }
+          }
+        });
+
+        output.appendChild(button);
+      }
     } else {
       const span = document.createElement("span");
       span.textContent = token;
@@ -188,8 +230,8 @@ function buildReadingBox(readings) {
     contentRow.className = "reading-content";
 
     // Spelling chunk (letters + separators)
-    const spelling = document.createElement("div");
-    spelling.className = "spelling";
+    const letterPhones = document.createElement("div");
+    letterPhones.className = "letter-phones";
 
     reading.letters.forEach((letterObj, idx) => {
       const button = document.createElement("button");
@@ -198,18 +240,18 @@ function buildReadingBox(readings) {
       button.addEventListener("click", () => {
         buildLetterBox(letterObj.class);
       });
-      spelling.appendChild(button);
+      letterPhones.appendChild(button);
 
       // separator dot between letters (not after last)
       if (idx < reading.letters.length - 1) {
         const dot = document.createElement("span");
         dot.textContent = "·";
         dot.className = "dot";
-        spelling.appendChild(dot);
+        letterPhones.appendChild(dot);
       }
     });
 
-    contentRow.appendChild(spelling);
+    contentRow.appendChild(letterPhones);
 
     const ipa = document.createElement("span");
     ipa.textContent = `/${reading.reading}/`;
