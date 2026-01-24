@@ -141,8 +141,9 @@ function findInDictionary() {
   const isSingleWord = /^[A-Za-z]+$/.test(text.trim());
   let singleWordKey = null;
 
-  // Track which words are present in current input
-  const currentWords = new Set();
+  // Track which word instances are present in current input
+  const currentWordInstances = new Set();
+  let wordInstanceCounter = {};
 
   tokens.forEach(token => {
     // if it's not a word
@@ -154,7 +155,14 @@ function findInDictionary() {
     }
 
     const key = token.toLowerCase();
-    currentWords.add(key);
+    
+    // Track instances: "they" appears twice -> "they_0", "they_1"
+    if (!wordInstanceCounter[key]) {
+      wordInstanceCounter[key] = 0;
+    }
+    const instanceKey = `${key}_${wordInstanceCounter[key]}`;
+    wordInstanceCounter[key]++;
+    currentWordInstances.add(instanceKey);
 
     if (dictionary[key]) {
       lastKey = key;
@@ -198,13 +206,12 @@ function findInDictionary() {
         });
       } else {
         // Normal mode: show translation
-        const selectedIndex = customWordSelections[key] || 0;
+        const selectedIndex = customWordSelections[instanceKey] || 0;
         const selectedEntry = entries[selectedIndex];
         const translation = selectedEntry.spelling;
         
-        // Get the original input word to match capitalization
-        const originalInputWord = tokens.find(t => t.toLowerCase() === key);
-        const capitalizedTranslation = capitalizeByPattern(translation, originalInputWord);
+        // Apply capitalization based on THIS specific instance's casing
+        const capitalizedTranslation = capitalizeByPattern(translation, token);
 
         const wordWrapper = document.createElement("span");
         wordWrapper.className = "word-wrapper";
@@ -216,7 +223,7 @@ function findInDictionary() {
         button.className = "explanation-button";
 
         // Show count badge if multiple entries and not manually selected
-        if (entries.length > 1 && !manuallySelectedWords[key]) {
+        if (entries.length > 1 && !manuallySelectedWords[instanceKey]) {
           const badge = document.createElement("sup");
           badge.textContent = entries.length;
           badge.className = "entry-count-badge";
@@ -227,7 +234,7 @@ function findInDictionary() {
           selectedManually = true;
           if (entries.length > 1) {
             // Show dropdown
-            showEntryDropdown(wordWrapper, key, entries, selectedIndex);
+            showEntryDropdown(wordWrapper, instanceKey, entries, selectedIndex, token);
           } else {
             buildReadingBox(entries[0].explanation);
             const firstReading = entries[0].explanation[0];
@@ -250,11 +257,11 @@ function findInDictionary() {
     }
   })
 
-  // Clean up selections for words no longer in input
-  Object.keys(customWordSelections).forEach(word => {
-    if (!currentWords.has(word)) {
-      delete customWordSelections[word];
-      delete manuallySelectedWords[word];
+  // Clean up selections for word instances no longer in input
+  Object.keys(customWordSelections).forEach(instanceKey => {
+    if (!currentWordInstances.has(instanceKey)) {
+      delete customWordSelections[instanceKey];
+      delete manuallySelectedWords[instanceKey];
     }
   });
 
@@ -273,7 +280,7 @@ function findInDictionary() {
   }
 }
 
-function showEntryDropdown(parentElement, wordKey, entries, currentIndex) {
+function showEntryDropdown(parentElement, instanceKey, entries, currentIndex, originalToken) {
   // Remove any existing dropdown
   const existingDropdown = document.querySelector(".entry-dropdown");
   if (existingDropdown) {
@@ -295,13 +302,14 @@ function showEntryDropdown(parentElement, wordKey, entries, currentIndex) {
     }
 
     const spelling = document.createElement("span");
-    spelling.textContent = entry.spelling;
+    // Apply capitalization to dropdown options based on the original token
+    spelling.textContent = capitalizeByPattern(entry.spelling, originalToken);
     spelling.className = "dropdown-spelling";
     option.appendChild(spelling);
 
     option.addEventListener("click", () => {
-      customWordSelections[wordKey] = index;
-      manuallySelectedWords[wordKey] = true;
+      customWordSelections[instanceKey] = index;
+      manuallySelectedWords[instanceKey] = true;
       dropdown.remove();
       updateOutput();
       selectedManually = true;
