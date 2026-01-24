@@ -302,8 +302,8 @@ function showEntryDropdown(parentElement, instanceKey, entries, currentIndex, or
     }
 
     const spelling = document.createElement("span");
-    // Apply capitalization to dropdown options based on the original token
-    spelling.textContent = capitalizeByPattern(entry.spelling, originalToken);
+    // Show dictionary spelling as-is, without capitalization
+    spelling.textContent = entry.spelling;
     spelling.className = "dropdown-spelling";
     option.appendChild(spelling);
 
