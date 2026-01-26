@@ -522,6 +522,20 @@
       ]
     }
   ],
+  "me": [
+    {  
+      "spelling": "mi",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "m", "class": "m"},
+            {"letter": "i", "class": "i-long-final"}
+          ],
+          "reading": "míː"
+        }
+      ]
+    }  
+  ],
   "my": [
     {
       "spelling": "mai",
