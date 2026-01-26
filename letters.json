@@ -505,7 +505,7 @@
     "representation": "d",
     "condition": "Befôr EU.",
     "pronunciation": {
-      "diaphoneme": "dʒ",
+      "diaphoneme": "d(j)",
       "us": "d",
       "ca": "d",
       "uk": "dʒ",
@@ -883,7 +883,7 @@
     ]
   },
   "er-weak-silent": {
-    "representation": "e",
+    "representation": "er",
     "name": "weak sailent",
     "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
     "pronunciation": {
@@ -2363,7 +2363,7 @@
     "representation": "t",
     "condition": "Befôr EU.",
     "pronunciation": {
-      "diaphoneme": "t",
+      "diaphoneme": "t(j)",
       "us": "t(ʰ)",
       "ca": "t(ʰ)",
       "uk": "tʃ",
@@ -2525,6 +2525,38 @@
       "duing",
       "viziual",
       "sitiuêcion"
+    ]
+  },
+  "u-long-prevocalic-reduced": {
+    "representation": "e",
+    "name": "weak redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "ʊ",
+      "us": "ʊ",
+      "ca": "ʊ",
+      "uk": "ʊ",
+      "au": "ʊ"
+    },
+    "examples": [
+      "euziuali",
+      "aktiuali"
+    ]
+  },
+  "u-long-prevocalic-silent": {
+    "representation": "e",
+    "name": "weak redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "∅",
+      "us": "∅",
+      "ca": "∅",
+      "uk": "∅",
+      "au": "∅"
+    },
+    "examples": [
+      "euziuali",
+      "aktiuali"
     ]
   },
   "u-short": {
@@ -2708,6 +2740,21 @@
       "surpraiz",
       "adventiur",
       "injurie"
+    ]
+  },
+  "ur-weak-silent": {
+    "representation": "ur",
+    "name": "weak sailent",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "(ə)r",
+      "us": "ɹ, ɚ",
+      "ca": "ɹ, ɚ",
+      "uk": "(ə)ɹ",
+      "au": "(ə)ɹ"
+    },
+    "examples": [
+      "centuri"
     ]
   },
   "u-semivowel": {

@@ -184,7 +184,7 @@ def generate(a, b) -> str:
                     continue
                 
                 # Is it the last letter?
-                if is_last_letter(i):
+                if letter_text != "a" and is_last_letter(i):
                     if letter_text == 'i' and not is_stressed:
                         letter_obj["class"] = "i-long-final-unstressed"
                     else:
@@ -330,6 +330,11 @@ def generate(a, b) -> str:
                         else:
                             letter_obj["class"] = "x-z"
                         continue
+
+                # TH (assuming it's always voiceless)
+                if letter_text == 'th':
+                    letter_obj["class"] = "th-voiceless"
+                    continue
             
             # Default: class = letter itself
             if "class" not in letter_obj:
@@ -428,6 +433,11 @@ def generate(a, b) -> str:
             diaphoneme = pronunciation.get("diaphoneme", "")
             
             if diaphoneme:
+                # Add stress mark if the vowel is stressed
+                is_stressed = letter_obj.get("stressed") == True or letter_obj.get("type") == "stressed"
+                if is_stressed:
+                    # Add combining acute accent to the first character
+                    diaphoneme = diaphoneme[0] + '\u0301' + diaphoneme[1:]
                 reading_parts.append(diaphoneme)
     
     combined_reading = "".join(reading_parts)
