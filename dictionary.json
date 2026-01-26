@@ -5346,7 +5346,7 @@
             {"letter": "e", "class": "e-weak-presonorant"},
             {"letter": "l", "class": "l"}
           ],
-          "reading": "ɪgzǽmpəl"
+          "reading": "ɪgzǽmpəl, ɪgzɑ́ːmpəl"
         }
       ]
     }
@@ -5367,7 +5367,7 @@
             {"letter": "l", "class": "l"},
             {"letter": "z", "class": "z"}
           ],
-          "reading": "ɪgzǽmpəlz"
+          "reading": "ɪgzǽmpəlz, ɪgzɑ́ːmpəlz"
         }
       ]
     }
@@ -8077,7 +8077,958 @@
       ]
     }
   ],
-  
+  "war": [
+    {
+      "spelling": "wor",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "w", "class": "w"},
+            {"letter": "or", "class": "or"}
+          ],
+          "reading": "wɔ́ːr"
+        }
+      ]
+    }
+  ],
+  "wars": [
+    {
+      "spelling": "worz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "w", "class": "w"},
+            {"letter": "or", "class": "or"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "wɔ́ːrz"
+        }
+      ]
+    }
+  ],
+  "music": [
+    {
+      "spelling": "meuzik",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "m", "class": "m"},
+            {"letter": "eu", "class": "eu"},
+            {"letter": "z", "class": "z"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "k", "class": "k"}
+          ],
+          "reading": "mj́uːzɪk"
+        }
+      ]
+    }
+  ],
+  "down": [
+    {
+      "spelling": "daun",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "d", "class": "d"},
+            {"letter": "au", "class": "au"},
+            {"letter": "n", "class": "n"}
+          ],
+          "reading": "dáʊn"
+        }
+      ]
+    }
+  ],
+  "million": [
+    {
+      "spelling": "milion",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "m", "class": "m"},
+            {"letter": "i", "class": "i-short"},
+            {"letter": "li", "class": "li"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"}
+          ],
+          "reading": "mɪ́ljən"
+        }
+      ]
+    }
+  ],
+  "millions": [
+    {
+      "spelling": "milionz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "m", "class": "m"},
+            {"letter": "i", "class": "i-short"},
+            {"letter": "li", "class": "li"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "mɪ́ljənz"
+        }
+      ]
+    }
+  ],
+  "important": [
+    {
+      "spelling": "important",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "i", "class": "i-short"},
+            {"letter": "m", "class": "m"},
+            {"letter": "p", "class": "p"},
+            {"letter": "or", "class": "or"},
+            {"letter": "t", "class": "t-intervocalic"},
+            {"letter": "a", "class": "a-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "ɪ́mpɔ́ːrtənt"
+        }
+      ]
+    }
+  ],
+  "control": [
+    {
+      "spelling": "kontrôl",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "t", "class": "t-r"},
+            {"letter": "r", "class": "r"},
+            {"letter": "ô", "class": "o-long"},
+            {"letter": "l", "class": "l"}
+          ],
+          "reading": "kəntɹóʊl"
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "spelling": "kontrôlz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "t", "class": "t-r"},
+            {"letter": "r", "class": "r"},
+            {"letter": "ô", "class": "o-long"},
+            {"letter": "l", "class": "l"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "kəntɹóʊlz"
+        }
+      ]
+    }
+  ],
+  "controlling": [
+    {
+      "spelling": "kontroling",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "t", "class": "t-r"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-long-medial"},
+            {"letter": "l", "class": "l"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "kəntɹóʊlɪŋ"
+        }
+      ]
+    }
+  ],
+  "controlled": [
+    {
+      "spelling": "kontrôld",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "t", "class": "t-r"},
+            {"letter": "r", "class": "r"},
+            {"letter": "ô", "class": "o-long"},
+            {"letter": "l", "class": "l"},
+            {"letter": "d", "class": "d"}
+          ],
+          "reading": "kəntɹóʊld"
+        }
+      ]
+    }
+  ],
+  "should": [
+    {
+      "spelling": "shued",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "sh", "class": "sh"},
+            {"letter": "ue", "class": "ue"},
+            {"letter": "d", "class": "d"}
+          ],
+          "reading": "ʃʊ́d"
+        }
+      ]
+    }
+  ],
+  "take": [
+    {
+      "spelling": "têk",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "t", "class": "t"},
+            {"letter": "ê", "class": "e-long"},
+            {"letter": "k", "class": "k"}
+          ],
+          "reading": "téɪk"
+        }
+      ]
+    }
+  ],
+  "takes": [
+    {
+      "spelling": "têks",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "t", "class": "t"},
+            {"letter": "ê", "class": "e-long"},
+            {"letter": "k", "class": "k"},
+            {"letter": "s", "class": "s"}
+          ],
+          "reading": "téɪks"
+        }
+      ]
+    }
+  ],
+  "taken": [
+    {
+      "spelling": "teken",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "t", "class": "t"},
+            {"letter": "e", "class": "e-long-medial"},
+            {"letter": "k", "class": "k"},
+            {"letter": "e", "class": "e-weak-presonorant"},
+            {"letter": "n", "class": "n"}
+          ],
+          "reading": "téɪkən"
+        }
+      ]
+    }
+  ],
+  "taking": [
+    {
+      "spelling": "teking",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "t", "class": "t"},
+            {"letter": "e", "class": "e-long-medial"},
+            {"letter": "k", "class": "k"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "téɪkɪŋ"
+        }
+      ]
+    }
+  ],
+  "took": [
+    {
+      "spelling": "tuek",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "t", "class": "t"},
+            {"letter": "ue", "class": "ue"},
+            {"letter": "k", "class": "k"}
+          ],
+          "reading": "tʊ́k"
+        }
+      ]
+    }
+  ],
+  "day": [
+    {
+      "spelling": "dei",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "d", "class": "d"},
+            {"letter": "ei", "class": "ei"}
+          ],
+          "reading": "déɪ"
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "spelling": "deiz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "d", "class": "d"},
+            {"letter": "ei", "class": "ei"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "déɪz"
+        }
+      ]
+    }
+  ],
+  "family": [
+    {
+      "spelling": "famili",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "f", "class": "f"},
+            {"letter": "a", "class": "a-short"},
+            {"letter": "m", "class": "m"},
+            {"letter": "i", "class": "i-weak-silent"},
+            {"letter": "l", "class": "l"},
+            {"letter": "i", "class": "i-long-final-unstressed"}
+          ],
+          "reading": "fǽm(ɪ)li"
+        }
+      ]
+    }
+  ],
+  "families": [
+    {
+      "spelling": "familiz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "f", "class": "f"},
+            {"letter": "a", "class": "a-short"},
+            {"letter": "m", "class": "m"},
+            {"letter": "i", "class": "i-weak-silent"},
+            {"letter": "l", "class": "l"},
+            {"letter": "i", "class": "i-long-final-unstressed"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "fǽm(ɪ)liz"
+        }
+      ]
+    }
+  ],
+  "language": [
+    {
+      "spelling": "langueje",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "a", "class": "a-short"},
+            {"letter": "ng", "class": "ng"},
+            {"letter": "ue", "class": "ue"},
+            {"letter": "je", "class": "je"}
+          ],
+          "reading": "lǽŋʊdʒ"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "spelling": "languejez",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "a", "class": "a-short"},
+            {"letter": "ng", "class": "ng"},
+            {"letter": "ue", "class": "ue"},
+            {"letter": "j", "class": "j"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "lǽŋʊdʒɪz"
+        }
+      ]
+    }
+  ],
+  "last": [
+    {
+      "spelling": "last",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "a", "class": "a-short-final-lengthened"},
+            {"letter": "s", "class": "s"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "lǽst, lɑ́ːst"
+        }
+      ]
+    }
+  ],
+  "original": [
+    {
+      "spelling": "orijinal",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "or", "class": "or-weak"},
+            {"letter": "i", "class": "i-short"},
+            {"letter": "j", "class": "j"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "a", "class": "a-weak"},
+            {"letter": "l", "class": "l"}
+          ],
+          "reading": "ərɪ́dʒɪnəl"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "spelling": "rezult",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "r", "class": "r"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"},
+            {"letter": "u", "class": "u-short-final"},
+            {"letter": "l", "class": "l"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "ɹɪzʌ́lt"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "spelling": "rezults",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "r", "class": "r"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"},
+            {"letter": "u", "class": "u-short-final"},
+            {"letter": "l", "class": "l"},
+            {"letter": "t", "class": "t"},
+            {"letter": "s", "class": "s"}
+          ],
+          "reading": "ɹɪzʌ́lts"
+        }
+      ]
+    }
+  ],
+  "resulting": [
+    {
+      "spelling": "rezulting",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "r", "class": "r"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"},
+            {"letter": "u", "class": "u-short-medial"},
+            {"letter": "l", "class": "l"},
+            {"letter": "t", "class": "t"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "ɹɪzʌ́ltɪŋ"
+        }
+      ]
+    }
+  ],
+  "resulted": [
+    {
+      "spelling": "rezulted",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "r", "class": "r"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"},
+            {"letter": "u", "class": "u-short-medial"},
+            {"letter": "l", "class": "l"},
+            {"letter": "t", "class": "t"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "d", "class": "d"}
+          ],
+          "reading": "ɹɪzʌ́ltɪd"
+        }
+      ]
+    }
+  ],
+  "political": [
+    {
+      "spelling": "politikal",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "l", "class": "l"},
+            {"letter": "i", "class": "i-short"},
+            {"letter": "t", "class": "t"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "k", "class": "k"},
+            {"letter": "a", "class": "a-weak"},
+            {"letter": "l", "class": "l"}
+          ],
+          "reading": "pəlɪ́tɪkəl"
+        }
+      ]
+    }
+  ],
+  "line": [
+    {
+      "spelling": "lain",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "ai", "class": "ai"},
+            {"letter": "n", "class": "n"}
+          ],
+          "reading": "láɪn"
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "spelling": "lainz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "ai", "class": "ai"},
+            {"letter": "n", "class": "n"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "láɪnz"
+        }
+      ]
+    }
+  ],
+  "lining": [
+    {
+      "spelling": "laining",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "ai", "class": "ai"},
+            {"letter": "n", "class": "n"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "láɪnɪŋ"
+        }
+      ]
+    }
+  ],
+  "lined": [
+    {
+      "spelling": "laind",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "l", "class": "l"},
+            {"letter": "ai", "class": "ai"},
+            {"letter": "n", "class": "n"},
+            {"letter": "d", "class": "d"}
+          ],
+          "reading": "láɪnd"
+        }
+      ]
+    }
+  ],
+  "member": [
+    {
+      "spelling": "member",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "m", "class": "m"},
+            {"letter": "e", "class": "e-short-medial"},
+            {"letter": "m", "class": "m"},
+            {"letter": "b", "class": "b"},
+            {"letter": "er", "class": "er-weak"}
+          ],
+          "reading": "mɛ́mbər"
+        }
+      ]
+    }
+  ],
+  "members": [
+    {
+      "spelling": "memberz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "m", "class": "m"},
+            {"letter": "e", "class": "e-short-medial"},
+            {"letter": "m", "class": "m"},
+            {"letter": "b", "class": "b"},
+            {"letter": "er", "class": "er-weak"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "mɛ́mbərz"
+        }
+      ]
+    }
+  ],
+  "case": [
+    {
+      "spelling": "kês",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "ê", "class": "e-long"},
+            {"letter": "s", "class": "s"}
+          ],
+          "reading": "kéɪs"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "spelling": "kesez",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "e", "class": "e-long-medial"},
+            {"letter": "s", "class": "s"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "kéɪsɪz"
+        }
+      ]
+    }
+  ],
+  "cased": [
+    {
+      "spelling": "kêst",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "ê", "class": "e-long"},
+            {"letter": "s", "class": "s"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "keɪst"
+        }
+      ]
+    }
+  ],
+  "casing": [
+    {
+      "spelling": "kesing",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "e", "class": "e-long-medial"},
+            {"letter": "s", "class": "s"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "kéɪsɪŋ"
+        }
+      ]
+    }
+  ],
+  "see": [
+    {
+      "spelling": "si",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "s", "class": "s"},
+            {"letter": "i", "class": "i-long-final"}
+          ],
+          "reading": "síː"
+        }
+      ]
+    }
+  ],
+  "sees": [
+    {
+      "spelling": "sîz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "s", "class": "s"},
+            {"letter": "î", "class": "i-long"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "síːz"
+        }
+      ]
+    }
+  ],
+  "seen": [
+    {
+      "spelling": "sîn",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "s", "class": "s"},
+            {"letter": "î", "class": "i-long"},
+            {"letter": "n", "class": "n"}
+          ],
+          "reading": "síːn"
+        }
+      ]
+    }
+  ],
+  "saw": [
+    {
+      "spelling": "sao",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "s", "class": "s"},
+            {"letter": "ao", "class": "ao"}
+          ],
+          "reading": "sɔ́ː"
+        }
+      ]
+    }
+  ],
+  "seeing": [
+    {
+      "spelling": "siing",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "s", "class": "s"},
+            {"letter": "i", "class": "i-long-prevocalic"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "síːɪŋ"
+        }
+      ]
+    }
+  ],
+  "single": [
+    {
+      "spelling": "singel",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "s", "class": "s"},
+            {"letter": "i", "class": "i-short-medial"},
+            {"letter": "n", "class": "n-velar"},
+            {"letter": "g", "class": "g"},
+            {"letter": "e", "class": "e-weak-presonorant"},
+            {"letter": "l", "class": "l"}
+          ],
+          "reading": "sɪ́ŋɡəl"
+        }
+      ]
+    }
+  ],
+  "just": [
+    {
+      "spelling": "just",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "j", "class": "j"},
+            {"letter": "u", "class": "u-short-final"},
+            {"letter": "s", "class": "s"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "dʒʌ́st"
+        }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "tipikali Brittish",
+      "spelling": "proces",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-long-final"},
+            {"letter": "c", "class": "c"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"}
+          ],
+          "reading": "pɹóʊsɛ́s"
+        }
+      ]
+    },
+    {
+      "title": "tipikali Amerikan",
+      "spelling": "procces",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-short"},
+            {"letter": "c", "class": "cc"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"}
+          ],
+          "reading": "pɹɒ́sɛ́s"
+        }
+      ]
+    }
+  ],
+  "processes": [
+    {
+      "title": "tipikali Brittish",
+      "spelling": "procesez",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-long-final"},
+            {"letter": "c", "class": "c"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "pɹóʊsɛ́sɪz"
+        }
+      ]
+    },
+    {
+      "title": "tipikali Amerikan",
+      "spelling": "proccesez",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-short"},
+            {"letter": "c", "class": "cc"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "pɹɒ́sɛ́sɪz"
+        }
+      ]
+    }
+  ],
+  "processed": [
+    {
+      "title": "tipikali Brittish",
+      "spelling": "procest",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-long-final"},
+            {"letter": "c", "class": "c"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "pɹóʊsɛ́st"
+        }
+      ]
+    },
+    {
+      "title": "tipikali Amerikan",
+      "spelling": "procces",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-short"},
+            {"letter": "c", "class": "cc"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "pɹɒ́sɛ́st"
+        }
+      ]
+    }
+  ],
+  "processing": [
+    {
+      "title": "tipikali Brittish",
+      "spelling": "processing",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-long-final"},
+            {"letter": "c", "class": "c"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "ss"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "pɹóʊsɛ́sɪŋ"
+        }
+      ]
+    },
+    {
+      "title": "tipikali Amerikan",
+      "spelling": "proccessing",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "p", "class": "p"},
+            {"letter": "r", "class": "r"},
+            {"letter": "o", "class": "o-short"},
+            {"letter": "c", "class": "cc"},
+            {"letter": "e", "class": "e-short-final"},
+            {"letter": "s", "class": "s"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "pɹɒ́sɛ́sɪŋ"
+        }
+      ]
+    }
+  ],
 
   "quick": [
     {
@@ -8155,6 +9106,74 @@
             }
           ],
           "reading": "fɒ́x"
+        }
+      ]
+    }
+  ],
+  "foxes": [
+    {
+      "spelling": "foxez",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "f", "class": "f"},
+            {"letter": "o", "class": "o-short-medial"},
+            {"letter": "x", "class": "x"},
+            {"letter": "e", "class": "e-weak"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "fɒ́ksɪz"
+        }
+      ]
+    }
+  ],
+  "jump": [
+    {
+      "spelling": "jump",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "j", "class": "j"},
+            {"letter": "u", "class": "u-short-final"},
+            {"letter": "m", "class": "m"},
+            {"letter": "p", "class": "p"}
+          ],
+          "reading": "dʒʌ́mp"
+        }
+      ]
+    }
+  ],
+  "jumped": [
+    {
+      "spelling": "jumpt",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "j", "class": "j"},
+            {"letter": "u", "class": "u-short-final"},
+            {"letter": "m", "class": "m"},
+            {"letter": "p", "class": "p"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "dʒʌ́mpt"
+        }
+      ]
+    }
+  ],
+  "jumping": [
+    {
+      "spelling": "jumping",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "j", "class": "j"},
+            {"letter": "u", "class": "u-short-medial"},
+            {"letter": "m", "class": "m"},
+            {"letter": "p", "class": "p"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "dʒʌ́mpɪŋ"
         }
       ]
     }
@@ -8239,6 +9258,22 @@
             }
           ],
           "reading": "dɒ́ɡ"
+        }
+      ]
+    }
+  ],
+  "dogs": [
+    {
+      "spelling": "dogs",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "d", "class": "d"},
+            {"letter": "o", "class": "o-short-final"},
+            {"letter": "g", "class": "g"},
+            {"letter": "s", "class": "s-voiced"}
+          ],
+          "reading": "dɒ́ɡz"
         }
       ]
     }

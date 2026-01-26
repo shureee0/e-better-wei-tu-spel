@@ -25,7 +25,7 @@ multigraphs = [
     # digraphs
     "ar", "ai", "ay", "ao", "au",
     "bb",
-    "ch",
+    "cc", "ch",
     "dd",
     "er", "êr", "ei", "ey", "eu",
     "ff",

@@ -390,6 +390,20 @@
     ],
     "note": "Euzd in plecez historikali akeurat."
   },
+  "cc": {
+    "representation": "cc",
+    "condition": "Mêks thi priciding vauel short.",
+    "pronunciation": {
+      "diaphoneme": "s",
+      "us": "s",
+      "ca": "s",
+      "uk": "s",
+      "au": "s"
+    },
+    "examples": [
+      "procces"
+    ]
+  },
   "c-soft": {
     "representation": "c",
     "name": "soft",
@@ -739,7 +753,7 @@
     "name": "weak sailent",
     "condition": "It iz unstrest, befôr L, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
     "pronunciation": {
-      "diaphoneme": "∅",
+      "diaphoneme": "(ə)",
       "us": "∅, ə",
       "ca": "∅, ə",
       "uk": "∅, ə",
@@ -1380,6 +1394,23 @@
       "ca": "ə",
       "uk": "ə",
       "au": "ə"
+    },
+    "examples": [
+      "abiliti",
+      "posibel",
+      "definit"
+    ]
+  },
+  "i-weak-silent": {
+    "representation": "i",
+    "name": "weak redeucet",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "(ɪ)",
+      "us": "∅, ɪ",
+      "ca": "∅, ɪ",
+      "uk": "∅, ɪ",
+      "au": "∅, ɪ"
     },
     "examples": [
       "abiliti",
