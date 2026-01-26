@@ -229,16 +229,14 @@ def generate(a, b) -> str:
             
             # Vowel with double RR
             if is_vowel and 'rr' in letter_text:
-                base = letter_text.replace('rr', '')
                 if is_stressed:
-                    letter_obj["class"] = base
+                    letter_obj["class"] = letter_text
                 else:
-                    letter_obj["class"] = f"{base}-weak"
+                    letter_obj["class"] = f"{letter_text}-weak"
                 continue
             
             # Vowel with R (but not RR)
             if is_vowel and 'r' in letter_text and 'rr' not in letter_text:
-                base = letter_text.replace('r', '')
                 next_letter = get_next_letter(i)
                 
                 if is_stressed:
@@ -246,23 +244,23 @@ def generate(a, b) -> str:
                     if next_letter and next_letter.get("type") in ["stressed", "unstressed", "vowel"]:
                         future_vowels = count_future_vowels(i)
                         if future_vowels > 1:
-                            letter_obj["class"] = f"{base}-derhoticized"
+                            letter_obj["class"] = f"{letter_text}-derhoticized"
                         else:
                             if letter_text not in ['ar', 'or']:
-                                letter_obj["class"] = f"{base}-long"
+                                letter_obj["class"] = f"{letter_text}-long"
                             else:
-                                letter_obj["class"] = base
+                                letter_obj["class"] = letter_text
                     else:
                         if letter_text not in ['ar', 'or']:
-                            letter_obj["class"] = f"{base}-long"
+                            letter_obj["class"] = f"{letter_text}-short"
                         else:
-                            letter_obj["class"] = base
+                            letter_obj["class"] = letter_text
                 else:
                     # Unstressed with R
                     if i > 0 and letter_text not in ['ar', 'or']:
-                        letter_obj["class"] = f"{base}-weak"
+                        letter_obj["class"] = f"{letter_text}-weak"
                     else:
-                        letter_obj["class"] = f"{base}-initial"
+                        letter_obj["class"] = f"{letter_text}-initial"
                 continue
             
             # IE digraph
@@ -446,7 +444,7 @@ def generate(a, b) -> str:
     letters_json = ",\n            ".join([str(letter).replace("'", '"') for letter in all_letters])
     
     output = f'''\"{a}\": [
-    {{  
+    {{
       \"spelling\": \"{b}\",
       \"explanation\": [
         {{
@@ -456,6 +454,6 @@ def generate(a, b) -> str:
           \"reading\": \"{combined_reading}\"
         }}
       ]
-    }}  
+    }}
   ],'''
     return output

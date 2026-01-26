@@ -8,7 +8,7 @@ def process_dictionary():
     
     # Pattern to match: string1,string2, with surrounding whitespace preserved
     # Captures: leading whitespace, string1, string2, trailing whitespace
-    pattern = r'(\s*)([a-zA-Z-.]+)\,([a-zA-Z-.]+)\,(\s*)'
+    pattern = r'(\s*)([a-zA-Z]+)\,([a-zA-Z-.ÂâÊêÎîÔôÛû]+)\,(\s*)'
     
     def replacer(match):
         leading_ws = match.group(1)
