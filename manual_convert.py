@@ -166,12 +166,13 @@ def generate(a, b) -> str:
             # Check if U following Q or G
             if letter_text == 'u':
                 prev = get_prev_letter(i)
-                if prev and prev["letter"].lower() in ['q', 'g']:
+                next_letter = get_next_letter(i)
+                if prev and next_letter and prev["letter"].lower() in ['q', 'g'] and next_letter.get("type") in ["stressed", "unstressed", "vowel"]:
                     letter_obj["class"] = "u-semivowel"
                     continue
             
             # Plain vowel rules
-            if is_vowel and letter_text in 'aeiou':
+            if is_vowel and letter_text in 'iuaeo':
                 next_letter = get_next_letter(i)
                 
                 # Is it followed by a vowel?
@@ -235,8 +236,25 @@ def generate(a, b) -> str:
                     letter_obj["class"] = f"{letter_text}-weak"
                 continue
             
+            # IE digraph
+            if letter_text == 'ie':
+                if is_stressed:
+                    letter_obj["class"] = "ie"
+                else:
+                    letter_obj["class"] = "ie-unstressed"
+                continue
+            
+            # EU or EUR
+            if letter_text in ['eu', 'eur']:
+                prev = get_prev_letter(i)
+                if prev and prev["letter"].lower() in ['t', 'd', 's', 'c', 'z', 'l', 'n']:
+                    letter_obj["class"] = f"{letter_text}-softening"
+                else:
+                    letter_obj["class"] = letter_text
+                continue
+
             # Vowel with R (but not RR)
-            if is_vowel and 'r' in letter_text and 'rr' not in letter_text:
+            if is_vowel and 'r' in letter_text and not any(x in letter_text for x in ['rr', 'ei', 'ie', 'ou', 'ue']):
                 next_letter = get_next_letter(i)
                 
                 if is_stressed:
@@ -257,27 +275,10 @@ def generate(a, b) -> str:
                             letter_obj["class"] = letter_text
                 else:
                     # Unstressed with R
-                    if i > 0 and letter_text not in ['ar', 'or']:
-                        letter_obj["class"] = f"{letter_text}-weak"
-                    else:
+                    if i == 0 and letter_text in ['ar', 'or'] and next_letter and next_letter.get("type") == "consonant":
                         letter_obj["class"] = f"{letter_text}-initial"
-                continue
-            
-            # IE digraph
-            if letter_text == 'ie':
-                if is_stressed:
-                    letter_obj["class"] = "ie"
-                else:
-                    letter_obj["class"] = "ie-unstressed"
-                continue
-            
-            # EU or EUR
-            if letter_text in ['eu', 'eur']:
-                prev = get_prev_letter(i)
-                if prev and prev["letter"].lower() in ['t', 'd', 's', 'c', 'z', 'l', 'n']:
-                    letter_obj["class"] = f"{letter_text}-softening"
-                else:
-                    letter_obj["class"] = letter_text
+                    else:
+                        letter_obj["class"] = f"{letter_text}-weak"
                 continue
             
             # Consonant rules
@@ -311,7 +312,7 @@ def generate(a, b) -> str:
                 
                 # S after B, D, G, or V
                 if letter_text == 's':
-                    if prev_letter and prev_letter["letter"].lower() in ['b', 'd', 'g', 'v']:
+                    if prev_letter and prev_letter["letter"].lower() in ['b', 'd', 'g', 'ng', 'v']:
                         letter_obj["class"] = "s-voiced"
                         continue
                 

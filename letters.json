@@ -737,7 +737,7 @@
   "e-weak-silent": {
     "representation": "e",
     "name": "weak sailent",
-    "condition": "It iz unstrest, befôr L or R, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "condition": "It iz unstrest, befôr L, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
     "pronunciation": {
       "diaphoneme": "∅",
       "us": "∅, ə",
@@ -746,8 +746,6 @@
       "au": "∅, ə"
     },
     "examples": [
-      "evveri",
-      "interest",
       "travveler"
     ]
   },
@@ -882,6 +880,23 @@
       "butter",
       "kompeuter",
       "literal"
+    ]
+  },
+  "er-weak-silent": {
+    "representation": "e",
+    "name": "weak sailent",
+    "condition": "It iz unstrest, raiht after thi strest silabel in a wurd longer than 2 silabelz.",
+    "pronunciation": {
+      "diaphoneme": "(ə)r",
+      "us": "ɹ, ɚ",
+      "ca": "ɹ, ɚ",
+      "uk": "(ə)ɹ",
+      "au": "(ə)ɹ"
+    },
+    "examples": [
+      "evveri",
+      "interest",
+      "travveler"
     ]
   },
   "ei": {
@@ -1236,7 +1251,7 @@
       "thiater"
     ]
   },
-  "i-long-unstressed-final": {
+  "i-long-final-unstressed": {
     "representation": "i",
     "name": "strong long unstrest",
     "condition": "It iz unstrest, and iz thi last letter ov thi wurd or morfîm.",
@@ -1253,7 +1268,7 @@
       "riakt"
     ]
   },
-  "i-long-unstressed-prevocalic": {
+  "i-long-prevocalic-unstressed": {
     "representation": "i",
     "name": "strong long unstrest",
     "condition": "It iz unstrest, and plecet befôr anuther vauel.",
@@ -1549,8 +1564,24 @@
     },
     "examples": [
       "jam",
-      "pêje",
+      "pêjez",
       "jeneral"
+    ]
+  },
+  "je": {
+    "representation": "je",
+    "condition": "At thi end ov e wurd or morfîm.",
+    "pronunciation": {
+      "diaphoneme": "dʒ",
+      "us": "dʒ",
+      "ca": "dʒ",
+      "uk": "dʒ",
+      "au": "dʒ"
+    },
+    "examples": [
+      "pêje",
+      "brije",
+      "langueje"
     ]
   },
   "k": {
