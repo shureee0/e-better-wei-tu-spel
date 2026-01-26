@@ -1,0 +1,24 @@
+"him": [
+    {
+      "spelling": "him",
+      "explanation": [
+        {
+          "letters": [
+            {
+              "letter": "h",
+              "class": "h"
+            },
+            {
+              "letter": "i",
+              "class": "i-short-final"
+            },
+            {
+              "letter": "m",
+              "class": "m"
+            }
+          ],
+          "reading": "hɪm"
+        }
+      ]
+    }
+  ],

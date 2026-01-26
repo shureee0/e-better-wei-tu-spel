@@ -2492,7 +2492,7 @@
               "class": "ch"
             }
           ],
-          "reading": "ʍɪ́tʃ"
+          "reading": "wɪ́tʃ"
         }
       ]
     }
@@ -3702,7 +3702,7 @@
               "class": "n"
             }
           ],
-          "reading": "ʍɛ́n"
+          "reading": "wɛ́n"
         }
       ]
     }
@@ -3992,7 +3992,7 @@
   ],
   "during": [
     {
-      "spelling": "during",
+      "spelling": "deuring",
       "explanation": [
         {
           "letters": [
@@ -4261,7 +4261,7 @@
               "class": "er-long"
             }
           ],
-          "reading": "ʍɛ́r"
+          "reading": "wɛ́r"
         }
       ]
     }
@@ -4661,6 +4661,144 @@
         }
       ]
     }
+  ],
+  "each": [
+    {  
+      "spelling": "iech",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "ie", "class": "ie"},
+            {"letter": "ch", "class": "ch"}
+          ],
+          "reading": "íːtʃ"
+        }
+      ]
+    }  
+  ],
+  "while": [
+    {  
+      "spelling": "whail",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "wh", "class": "wh"},
+            {"letter": "ai", "class": "ai"},
+            {"letter": "l", "class": "l"}
+          ],
+          "reading": "wáɪl"
+        }
+      ]
+    }  
+  ],
+  "if": [
+    {  
+      "spelling": "if",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "i", "class": "i-short-final"},
+            {"letter": "f", "class": "f"}
+          ],
+          "reading": "ɪ́f"
+        }
+      ]
+    }  
+  ],
+  "call": [
+    {  
+      "spelling": "kaol",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "ao", "class": "ao"},
+            {"letter": "l", "class": "l"}
+          ],
+          "reading": "kɔ́ːl"
+        }
+      ]
+    }  
+  ],
+  "calling": [
+    {  
+      "spelling": "kaoling",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "ao", "class": "ao"},
+            {"letter": "l", "class": "l"},
+            {"letter": "i", "class": "i-weak"},
+            {"letter": "ng", "class": "ng"}
+          ],
+          "reading": "kɔ́ːlɪŋ"
+        }
+      ]
+    }  
+  ],
+  "calls": [
+    {  
+      "spelling": "kaolz",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "ao", "class": "ao"},
+            {"letter": "l", "class": "l"},
+            {"letter": "z", "class": "z"}
+          ],
+          "reading": "kɔ́ːlz"
+        }
+      ]
+    }  
+  ],
+  "called": [
+    {  
+      "spelling": "kaold",
+      "explanation": [
+        {
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "ao", "class": "ao"},
+            {"letter": "l", "class": "l"},
+            {"letter": "d", "class": "d"}
+          ],
+          "reading": "kɔ́ːld"
+        }
+      ]
+    }  
+  ],
+  "convert": [
+    {  
+      "spelling": "konvert",
+      "explanation": [
+        {
+          "title": "verb",
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "o", "class": "o-weak"},
+            {"letter": "n", "class": "n"},
+            {"letter": "v", "class": "v"},
+            {"letter": "er", "class": "er-short-final"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "kənvɜ́ːrt"
+        },
+        {
+          "title": "noun",
+          "letters": [
+            {"letter": "k", "class": "k"},
+            {"letter": "o", "class": "o-short-medial"},
+            {"letter": "n", "class": "n"},
+            {"letter": "v", "class": "v"},
+            {"letter": "er", "class": "er-weak"},
+            {"letter": "t", "class": "t"}
+          ],
+          "reading": "kɒ́nvərt"
+        }
+      ]
+    }  
   ],
 
   "quick": [

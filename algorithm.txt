@@ -1,0 +1,128 @@
+if a vowel with a circumflex (can have R or not):
+	class = <letter>-long
+	end here
+
+if U:
+	is it following Q or G?
+	if yes → class = u-semivowel
+	end here
+
+if a plain vowel:
+	is it followed by a vowel?
+		if yes → is it unstressed I?
+			if yes → class = i-long-prevocalic-unstressed
+			else → class = <letter>-long-prevocalic
+		end here
+	
+	is it the last vowel of the string?
+		if yes → is it unstressed I?
+			if yes → class = i-long-final-unstressed
+			else → class = <letter>-long-final
+		end here
+
+	is it stressed?
+		if yes → are there more than a single vowel following in the word?
+			if yes → class = <letter>-short
+			else → is it the last vowel of the word?
+				if yes → class = <letter>-short-final
+				else → is it followed by a double consonant?
+					if yes → class = <letter>-short-medial
+					else → following the following character, is it a vowel?
+						if yes → class = <letter>-long-medial
+						else → class = <letter>-short-medial
+					
+		else → is it anything but E or I?
+			if yes → class = <letter>-weak
+			else → is it the first character of the string?
+				if yes → class = <letter>-weak-initial
+				else → is it e before L, M, or N?
+					if yes → class = e-weak-presonorant
+					else → class = <letter>-weak
+		end here
+
+if a vowel with double RR:
+	is it stressed?
+		if yes → class = <letter>
+		else → class = <letter>-weak
+	end here
+
+if a vowel with R:
+	is it stressed?
+		if yes → is it followed by a vowel?
+			if yes → are there more than a single vowel following in the word?
+				if yes → class = <letter>-derhoticized
+				else → is it anything but AR or OR?
+					if yes → class = <letter>-long
+					else → class = <letter>
+			else → is it anything but AR or OR?
+				if yes → class = <letter>-long
+				else → class = <letter>
+		
+		else → is it anything but AR or OR in the beginning of the string?
+			if yes → class = <letter>-weak
+			else → class = <letter>-initial
+	end here
+
+if IE:
+	is it stressed?
+		if yes → class = <letter>
+		else → class = <letter>-unstressed
+	end here
+
+if EU or EUR:
+	is it following T, D, S, C, Z, L, or N?
+		if yes → class = <letter>-softening
+		else → class = <letter>
+	end here
+
+if T, D, S, C, Z, L, or N
+	is it followed by EU?
+		if yes → class = <letter>-eu
+		end here
+
+if T, TT, D, or DD:
+	is it followed by R?
+		if yes → class = <letter>-r
+		end here
+	
+	is it following a stressed vowel and followed by an unstressed vowel?
+		if yes → class = <letter>-intervocalic
+		end here
+
+if N:
+	is it followed by K or G?
+		if yes → class = n-velar
+		end here
+
+if S:
+	is it following B, D, G, or V?
+		if yes → class = s-voiced
+		end here
+
+if F:
+	is it followed by Z?
+		if yes → class = f-z
+		end here
+
+if X:
+	is it followed by C or Z?
+		if yes → is it followed by C?
+			if yes → class = x-c
+			else → class = x-z
+		end here
+
+if you're still here: class = <letter>
+end here
+
+
+
+"end here" means you go to the next letter and stop checking for the next if statements
+"are there more than a single vowel following in the word?" means you have to check into the future and count how many vowel letters/digraphs are in the future of the word. If checking for the first letter in "oranje", we're gonna see that there are 2 vowels following "o": "a" and "e".
+		
+
+
+
+
+	
+	
+

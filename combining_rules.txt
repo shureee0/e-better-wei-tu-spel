@@ -1,0 +1,28 @@
+if S, C, T, Z, D, G, L:
+	is followed by class=i-long-prevocalic-unstressed, and then followed by an unstressed vowel?
+		if yes → 
+			change into: 
+				"letter": "<letter>i"
+				"class": "<letter>i"
+			remove the following letter (i-long-prevocalic-unstressed)
+	
+if C:
+	is followed by either:
+		1. class=e-long-final AND IT'S THE END OF THE WORD, NOTHING AFTER
+		2. class=e-weak and then letter T AND IT'S THE END OF THE WORD, NOTHING AFTER
+		if yes → 
+			change into: 
+				"letter": "ce"
+				"class": "ce"
+			remove the following letter
+
+if J:
+	is followed by either:
+		1. class=e-long-final AND IT'S THE END OF THE WORD, NOTHING AFTER
+		2. class=e-weak and then letter D AND IT'S THE END OF THE WORD, NOTHING AFTER
+		if yes → 
+			change into: 
+				"letter": "je"
+				"class": "je"
+			remove the following letter
+	
