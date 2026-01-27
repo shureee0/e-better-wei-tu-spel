@@ -390,8 +390,8 @@
     ],
     "note": "Euzd in plecez historikali akeurat."
   },
-  "cc": {
-    "representation": "cc",
+  "c-double": {
+    "representation": "c",
     "condition": "Mêks thi priciding vauel short.",
     "pronunciation": {
       "diaphoneme": "s",
@@ -401,7 +401,7 @@
       "au": "s"
     },
     "examples": [
-      "procces"
+      "proces"
     ]
   },
   "c-soft": {
@@ -1565,6 +1565,23 @@
       "keutie",
       "jurnie",
       "puppie"
+    ]
+  },
+  "ie-unstressed": {
+    "representation": "i",
+    "name": "strong long unstrest",
+    "condition": "It iz unstrest.",
+    "pronunciation": {
+      "diaphoneme": "i",
+      "us": "i",
+      "ca": "i",
+      "uk": "i, ɪ",
+      "au": "i"
+    },
+    "examples": [
+      "familie",
+      "thiorie",
+      "historie"
     ]
   },
   "ier": {
