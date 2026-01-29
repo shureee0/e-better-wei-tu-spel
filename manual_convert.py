@@ -286,6 +286,14 @@ def generate(a, b) -> str:
                 next_letter = get_next_letter(i)
                 prev_letter = get_prev_letter(i)
                 
+                # H after a vowel and not before a vowel
+                if letter_text == 'h':
+                    prev_is_vowel = prev_letter and prev_letter.get("type") in ["stressed", "unstressed", "vowel"]
+                    next_is_vowel = next_letter and next_letter.get("type") in ["stressed", "unstressed", "vowel"]
+                    if prev_is_vowel and not next_is_vowel:
+                        letter_obj["class"] = "h-silent"
+                        continue
+
                 # T, D, S, C, Z, L, or N followed by EU
                 if letter_text in ['t', 'd', 's', 'c', 'z', 'l', 'n']:
                     if next_letter and next_letter["letter"].lower() in ['eu', 'eur']:
